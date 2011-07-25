@@ -12,7 +12,14 @@ namespace GwoDb
 
         public virtual string Name { get; set; }
 
+        public virtual IList<Person> Colleagues { get; set; }
+
         public virtual DateTime DateCreated { get; set; }
         public virtual DateTime DateModified { get; set; }
+
+        public Company()
+        {
+            Colleagues = new List<Person>();
+        }
     }
 }

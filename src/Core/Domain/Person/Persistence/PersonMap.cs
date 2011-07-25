@@ -11,6 +11,7 @@ namespace GwoDb
         public PersonMap()
         {
             Id(x => x.Id);
+            HasOne(x => x.Company);
             Map(x => x.Name);
             Map(x => x.DateCreated);
             Map(x => x.DateModified);            
