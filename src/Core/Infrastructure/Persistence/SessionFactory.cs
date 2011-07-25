@@ -18,16 +18,20 @@ namespace GwoDb.Infrastructure
         
         public static ISessionFactory CreateSessionFactory()
         {
-            return Fluently.Configure()
-              .Database(
-                MsSqlConfiguration.MsSql2008
-                  .ConnectionString(c => c
-                    .FromConnectionStringWithKey("main"))
-              )
-              .Mappings(m =>
-                m.FluentMappings.Conventions.Add<EnumConvention>().AddFromAssemblyOf<Person>())
-              .ExposeConfiguration(SetConfig)
-              .BuildSessionFactory();
+            try
+            {
+                return Fluently.Configure()
+                  .Database(
+                    MsSqlConfiguration.MsSql2008
+                      .ConnectionString(c => c
+                        .FromConnectionStringWithKey("main"))
+                  )
+                  .Mappings(m =>
+                    m.FluentMappings.Conventions.Add<EnumConvention>().AddFromAssemblyOf<Person>())
+                  .ExposeConfiguration(SetConfig)
+                  .BuildSessionFactory();                
+            }catch(Exception ex){throw; } /* add break point here */
+
         }
 
         private static void SetConfig(Configuration config)

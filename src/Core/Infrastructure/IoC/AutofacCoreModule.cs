@@ -12,9 +12,9 @@ namespace GwoDb.Infrastructure
     {
         protected override void Load(ContainerBuilder builder)
         {
-            var assemblyTrueOrFalse = Assembly.Load("GwoDb.Core");
-            builder.RegisterAssemblyTypes(assemblyTrueOrFalse).AssignableTo<IRegisterAsInstancePerLifetime>();
-            builder.RegisterAssemblyTypes(assemblyTrueOrFalse).Where(a => a.Name.EndsWith("Repository"));
+            var assemblyCore = Assembly.Load("GwoDb.Core");
+            builder.RegisterAssemblyTypes(assemblyCore).AssignableTo<IRegisterAsInstancePerLifetime>();
+            builder.RegisterAssemblyTypes(assemblyCore).Where(a => a.Name.EndsWith("Repository"));
 
             builder.RegisterInstance(SessionFactory.CreateSessionFactory().OpenSession());
         }
