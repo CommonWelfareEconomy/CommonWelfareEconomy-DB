@@ -67,6 +67,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Company\Company.cs" />
+    <Compile Include="Domain\Company\Persistence\CompanyMap.cs" />
+    <Compile Include="Domain\Company\Persistence\CompanyRepository.cs" />
     <Compile Include="Domain\Person\Persistence\PersonMap.cs" />
     <Compile Include="Domain\Person\Persistence\PersonRepository.cs" />
     <Compile Include="Domain\Person\Person.cs" />

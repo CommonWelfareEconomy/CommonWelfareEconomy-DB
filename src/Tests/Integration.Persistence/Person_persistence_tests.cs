@@ -14,6 +14,5 @@ namespace GwoDb.Tests.Integration
             var person = new Person {Name = "Meyer"};
             Resolve<PersonRepository>().Create(person);
         }
-
     }
 }
