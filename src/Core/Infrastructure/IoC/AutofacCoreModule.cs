@@ -16,6 +16,9 @@ namespace GwoDb.Infrastructure
             builder.RegisterAssemblyTypes(assemblyCore).AssignableTo<IRegisterAsInstancePerLifetime>();
             builder.RegisterAssemblyTypes(assemblyCore).Where(a => a.Name.EndsWith("Repository"));
 
+            var assemblyTest = Assembly.Load("GwoDb.Tests");
+            builder.RegisterAssemblyTypes(assemblyTest).Where(a => a.Name.StartsWith("Arrange"));
+
             builder.RegisterInstance(SessionFactory.CreateSessionFactory().OpenSession());
         }
     }

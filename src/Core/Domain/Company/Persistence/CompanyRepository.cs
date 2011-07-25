@@ -9,8 +9,12 @@ namespace GwoDb
 {
     public class CompanyRepository : RepositoryDb<Company>
     {
-        public CompanyRepository(ISession session) : base(session)
+        public CompanyRepository(ISession session) : base(session){}
+
+        public void Create(List<Company> companiesToCreate)
         {
+            foreach(var company in companiesToCreate)
+                Create(company);
         }
 
         public override void Create(Company company)
@@ -25,5 +29,7 @@ namespace GwoDb
             base.Create(company);
             Flush();
         }
+
+
     }
 }
