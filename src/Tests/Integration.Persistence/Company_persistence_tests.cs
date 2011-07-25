@@ -50,14 +50,13 @@ namespace GwoDb.Tests.Integration
 
             var searchSpec = new CompanySearchSpec();
             searchSpec.Filter.UserName.Like("Firma");
-            searchSpec.OrderBy.Modified.Desc();
 
             var companyRepository = Resolve<CompanyRepository>();
             var companies = companyRepository.GetBy(searchSpec);
 
             Assert.That(companies.Count, Is.EqualTo(2));
-            Assert.That(companies[0].Name, Is.EqualTo("Firma Müller"));
-            Assert.That(companies[1].Name, Is.EqualTo("Firma Meyer"));
+            Assert.That(companies[0].Name, Is.EqualTo("Firma Meyer"));
+            Assert.That(companies[1].Name, Is.EqualTo("Firma Müller"));
         }
     }
 }
