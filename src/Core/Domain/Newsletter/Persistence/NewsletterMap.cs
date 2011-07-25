@@ -12,7 +12,7 @@ namespace GwoDb
         {
             Id(x => x.Id);
             Map(x => x.Name);
-            HasManyToMany(x => x.Subscribers).Table("Person_Newsletter").Inverse();
+            HasManyToMany(x => x.Subscribers).Cascade.All().Table("Person_Newsletter");
             Map(x => x.DateCreated);
             Map(x => x.DateModified);            
         }
