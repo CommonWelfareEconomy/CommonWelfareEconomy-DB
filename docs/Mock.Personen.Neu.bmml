@@ -1,6 +1,6 @@
-<mockup version="1.0" skin="sketch" measuredW="982" measuredH="872" mockupW="974" mockupH="847">
+<mockup version="1.0" skin="sketch" measuredW="983" measuredH="910" mockupW="975" mockupH="885">
   <controls>
-    <control controlID="55" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="25" w="974" h="847" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="25" w="975" h="885" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Richtig-oder-falsch%3F%0Ahttp%3A//db.gemeinwohl-%F6konomie.de/verewaltung/person/anlegen</text>
         <verticalScrollbar>false</verticalScrollbar>
@@ -16,7 +16,7 @@
         <text>Suche</text>
       </controlProperties>
     </control>
-    <control controlID="81" controlTypeID="com.balsamiq.mockups::Button" x="510" y="773" w="165" h="26" measuredW="131" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Button" x="508" y="809" w="165" h="26" measuredW="131" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Speichern%20%26%20Neu</text>
       </controlProperties>
@@ -31,20 +31,20 @@
         <text>Tobias%20Meyer</text>
       </controlProperties>
     </control>
-    <control controlID="90" controlTypeID="com.balsamiq.mockups::Button" x="369" y="773" w="130" h="26" measuredW="89" measuredH="28" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Button" x="367" y="809" w="130" h="26" measuredW="89" measuredH="28" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <href>Mockup-Fragen-Detail.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22361%2C748%2C491%2C774%22%20href%3D%22Mockup-Fragen-Detail%22%20alt%3D%22Mockup-Fragen-Detail%22%20id%3D%2290%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22359%2C784%2C489%2C810%22%20href%3D%22Mockup-Fragen-Detail%22%20alt%3D%22Mockup-Fragen-Detail%22%20id%3D%2290%22/%3E</map>
         <text>Speichern</text>
       </controlProperties>
     </control>
     <control controlID="113" controlTypeID="com.balsamiq.mockups::Paragraph" x="44" y="160" w="154" h="530" measuredW="200" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
-        <text>*%7Bcolor%3A%23cf2a27%7D%DCbersicht%20%2835%29%7Bcolor%7D*%0A%20%0A*%7Bcolor%3A%23cf2a27%7DUnternehmen%20%7Bcolor%7D*%20%0AAlle%20%28732%29%0APioniere%20%2872%29%0AAnlegen%0A%20%0A*%7Bcolor%3A%23cf2a27%7DEnergiefelder%20%7Bcolor%7D*%20%0AAlle%20%2891%29%0AAnlegen%0A%20%0A*%7Bcolor%3A%23cf2a27%7DPersonen%20%7Bcolor%7D*%20%0AAlle%20%28892%29%0APolitiker%20%28112%29%0ABerater%20%285%29%0AAnlegen%0A%20%0A---------------------%0A*%7Bcolor%3A%23cf2a27%7DAdministration%20%7Bcolor%7D*%20%0ABegriffe%20%0AEnergiekreise%0AVerteiler%0A%20</text>
+        <text>*%7Bcolor%3A%23cf2a27%7D%DCbersicht%20%2835%29%7Bcolor%7D*%0A%20%0A*%7Bcolor%3A%23cf2a27%7DUnternehmen%20%7Bcolor%7D*%20%0AAlle%20%28732%29%0APioniere%20%2872%29%0AAnlegen%0A%20%0A*%7Bcolor%3A%23cf2a27%7DGruppen%20%7Bcolor%7D*%20%0AEnergiefelder%20%2891%29%0AStr%E4nge%20%2814%29%0A%20%0A*%7Bcolor%3A%23cf2a27%7DPersonen%20%7Bcolor%7D*%20%0AAlle%20%28892%29%0APolitiker%20%28112%29%0ABerater%20%285%29%0AAnlegen%0A%20%0A---------------------%0A*%7Bcolor%3A%23cf2a27%7DAdministration%20%7Bcolor%7D*%20%0ABegriffe%20%0AEnergiekreise%0AStr%E4nge%0AVerteiler%0A%20</text>
       </controlProperties>
     </control>
-    <control controlID="121" controlTypeID="__group__" x="25" y="382" w="16" h="19" measuredW="16" measuredH="19" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="121" controlTypeID="__group__" x="27" y="357" w="16" h="19" measuredW="16" measuredH="19" zOrder="9" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="3" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="121">
           <controlProperties>
@@ -60,7 +60,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="136" controlTypeID="__group__" x="25" y="302" w="16" h="19" measuredW="16" measuredH="19" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="136" controlTypeID="__group__" x="27" y="283" w="16" h="19" measuredW="16" measuredH="19" zOrder="10" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="3" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="136">
           <controlProperties>
@@ -76,7 +76,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="137" controlTypeID="__group__" x="27" y="520" w="16" h="19" measuredW="16" measuredH="19" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="137" controlTypeID="__group__" x="27" y="482" w="16" h="19" measuredW="16" measuredH="19" zOrder="11" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="3" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="137">
           <controlProperties>
@@ -218,17 +218,17 @@
         <text>Energiekreis</text>
       </controlProperties>
     </control>
-    <control controlID="174" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="297" y="631" w="-1" h="-1" measuredW="89" measuredH="22" zOrder="37" locked="false" isInGroup="-1">
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="297" y="659" w="-1" h="-1" measuredW="89" measuredH="22" zOrder="37" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%5Bx%5D%20Ist%20Berater</text>
       </controlProperties>
     </control>
-    <control controlID="175" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="297" y="664" w="119" h="100" measuredW="86" measuredH="88" zOrder="38" locked="false" isInGroup="-1">
+    <control controlID="175" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="295" y="700" w="119" h="100" measuredW="86" measuredH="88" zOrder="38" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%5Bx%5D%20Allgemein%0A%5B%20%5D%20Vorstand%0A%5B%20%5D%20Finanzen%0A%5B%20%5D%20...</text>
       </controlProperties>
     </control>
-    <control controlID="176" controlTypeID="com.balsamiq.mockups::Label" x="188" y="664" w="90" h="35" measuredW="53" measuredH="22" zOrder="39" locked="false" isInGroup="-1">
+    <control controlID="176" controlTypeID="com.balsamiq.mockups::Label" x="186" y="700" w="90" h="35" measuredW="53" measuredH="22" zOrder="39" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Verteiler</text>
       </controlProperties>
@@ -382,7 +382,7 @@
         <text>Wer%20kann%20meine%20Daten%20sehen%3F</text>
       </controlProperties>
     </control>
-    <control controlID="212" controlTypeID="com.balsamiq.mockups::Icon" x="257" y="663" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="70" locked="false" isInGroup="-1">
+    <control controlID="212" controlTypeID="com.balsamiq.mockups::Icon" x="255" y="699" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="70" locked="false" isInGroup="-1">
       <controlProperties>
         <color>10066329</color>
         <icon>XIcon%7Cxsmall</icon>
@@ -398,6 +398,39 @@
         <borderStyle>none</borderStyle>
         <selectedIndex>0</selectedIndex>
         <text>Profil%2C%20Womit%20ich%20beitragen%20m%F6chten</text>
+      </controlProperties>
+    </control>
+    <control controlID="216" controlTypeID="com.balsamiq.mockups::Label" x="182" y="629" w="90" h="35" measuredW="50" measuredH="22" zOrder="72" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Str%E4nge</text>
+      </controlProperties>
+    </control>
+    <control controlID="217" controlTypeID="com.balsamiq.mockups::Icon" x="265" y="633" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="73" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>LinkGlobeIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="220" controlTypeID="com.balsamiq.mockups::Button" x="298" y="628" w="-1" h="-1" measuredW="53" measuredH="28" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>IT%20%5C%5Bx%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="221" controlTypeID="com.balsamiq.mockups::Button" x="358" y="628" w="-1" h="-1" measuredW="79" measuredH="28" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Lehrer%20%5C%5Bx%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="222" controlTypeID="com.balsamiq.mockups::Button" x="446" y="628" w="-1" h="-1" measuredW="71" measuredH="28" zOrder="76" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Orga%20%5C%5Bx%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="223" controlTypeID="com.balsamiq.mockups::Icon" x="528" y="630" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="77" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledPlusIcon%7Csmall</icon>
       </controlProperties>
     </control>
   </controls>
