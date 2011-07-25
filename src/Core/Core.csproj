@@ -67,6 +67,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Person\Persistence\PersonMap.cs" />
+    <Compile Include="Domain\Person\Persistence\PersonRepository.cs" />
     <Compile Include="Domain\Person\Person.cs" />
     <Compile Include="Infrastructure\IoC\AutofacCoreModule.cs" />
     <Compile Include="Infrastructure\IoC\IRegisterAsInstancePerLifetime.cs" />
