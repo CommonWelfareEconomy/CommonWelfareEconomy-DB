@@ -12,10 +12,15 @@ namespace GwoDb
 
         public virtual string Name { get; set; }
 
-        public virtual List<Person> Subscribers { get; set; }
+        public virtual IList<Person> Subscribers { get; set; }
 
         public virtual DateTime DateCreated { get; set; }
         public virtual DateTime DateModified { get; set; }
+
+        public Newsletter()
+        {
+            Subscribers = new List<Person>();
+        }
 
     }
 }

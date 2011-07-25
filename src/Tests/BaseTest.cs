@@ -13,7 +13,8 @@ namespace GwoDb.Tests
     {
         private static IContainer _container;
 
-        public BaseTest()
+        [SetUp]
+        public void Setup()
         {
             InitializeContainer();
         }

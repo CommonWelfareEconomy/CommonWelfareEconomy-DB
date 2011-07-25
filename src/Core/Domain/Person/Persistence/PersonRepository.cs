@@ -12,5 +12,13 @@ namespace GwoDb
         public PersonRepository(ISession session) : base(session)
         {
         }
+
+        public void Create(List<Person> persons)
+        {
+            foreach(var person in persons)
+                Create(person);
+
+            Flush();
+        }
     }
 }

@@ -12,6 +12,7 @@ namespace GwoDb
         {
             Id(x => x.Id);
             HasOne(x => x.Company);
+            HasManyToMany(x => x.Subscriptions).Table("Person_Newsletter");
             Map(x => x.Name);
             Map(x => x.DateCreated);
             Map(x => x.DateModified);            

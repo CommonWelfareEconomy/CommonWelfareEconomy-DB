@@ -13,9 +13,15 @@ namespace GwoDb
         public virtual string Name { get; set; }
 
         public virtual Company Company { get; set; }
+        public virtual IList<Newsletter> Subscriptions { get; set; }
 
         public virtual DateTime DateCreated { get; set; }
         public virtual DateTime DateModified { get; set; }
+
+        public Person()
+        {
+            Subscriptions = new List<Newsletter>();
+        }
 
     }
 }

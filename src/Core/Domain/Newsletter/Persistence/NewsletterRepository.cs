@@ -12,5 +12,13 @@ namespace GwoDb
         public NewsletterRepository(ISession session): base(session)
         {
         }
+
+        public void Create(List<Newsletter> newsletters)
+        {
+            foreach(var newsletter in newsletters)
+                Create(newsletter);
+
+            Flush();
+        }
     }
 }

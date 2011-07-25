@@ -7,24 +7,23 @@ namespace GwoDb.Tests.Integration
 {
     public class Arrange_companies
     {
-        private readonly CompanyRepository _companyRepository;
+        private readonly CompanyRepository _companyRepo;
+        private readonly List<Company> _companiesToCreate = new List<Company>();
 
-        public Arrange_companies(CompanyRepository companyRepository)
+        public Arrange_companies(CompanyRepository companyRepo)
         {
-            _companyRepository = companyRepository;
+            _companyRepo = companyRepo;
         }
-
-        private readonly List<Company> _companiesToCreate = new List<Company>() ;
 
         public Arrange_companies AddCompany(string name)
         {
-            _companiesToCreate.Add(new Company{Name = name});
+            _companiesToCreate.Add(new Company { Name = name });
             return this;
         }
 
         public void Persist()
         {
-            _companyRepository.Create(_companiesToCreate);
+            _companyRepo.Create(_companiesToCreate);
         }
     }
 }
