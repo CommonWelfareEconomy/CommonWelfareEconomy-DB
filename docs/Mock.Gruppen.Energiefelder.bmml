@@ -1,0 +1,376 @@
+<mockup version="1.0" skin="sketch" measuredW="968" measuredH="793" mockupW="960" mockupH="768">
+  <controls>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="25" w="960" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Richtig-oder-falsch%3F%0Ahttp%3A//db.gemeinwohl-%F6konomie.de/gruppen/energiefelder</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Paragraph" x="750" y="105" w="218" h="26" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hallo%20%5BMax%20Mustermann%5D%20%7C%20%5BLogout%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::TextInput" x="299" y="103" w="253" h="-1" measuredW="50" measuredH="26" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suche</text>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::Paragraph" x="44" y="160" w="154" h="530" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>*%7Bcolor%3A%23cf2a27%7D%DCbersicht%20%2835%29%7Bcolor%7D*%0A%20%0A*%7Bcolor%3A%23cf2a27%7DUnternehmen%20%7Bcolor%7D*%20%0AAlle%20%28732%29%0APioniere%20%2872%29%0AAnlegen%0A%20%0A*%7Bcolor%3A%23cf2a27%7DGruppen%20%7Bcolor%7D*%20%0AEnergiefelder%20%2891%29%0A%20%20%20Berlin%0AStr%E4nge%20%2814%29%0A%20%0A*%7Bcolor%3A%23cf2a27%7DPersonen%20%7Bcolor%7D*%20%0AAlle%20%28892%29%0APolitiker%20%28112%29%0ABerater%20%285%29%0AAnlegen%0A%20%0A---------------------%0A*%7Bcolor%3A%23cf2a27%7DAdministration%20%7Bcolor%7D*%20%0ABegriffe%20%0AEnergiekreise%0AStr%E4nge%0AVerteiler%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="__group__" x="27" y="357" w="16" h="19" measuredW="16" measuredH="19" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="3" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="121">
+          <controlProperties>
+            <color>0</color>
+            <icon>DownTriangleIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="16" h="10" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="121">
+          <controlProperties>
+            <borderColor>16777215</borderColor>
+            <shape>rectangle</shape>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="136" controlTypeID="__group__" x="27" y="283" w="16" h="19" measuredW="16" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="3" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="136">
+          <controlProperties>
+            <color>0</color>
+            <icon>DownTriangleIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="16" h="10" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="136">
+          <controlProperties>
+            <borderColor>16777215</borderColor>
+            <shape>rectangle</shape>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="137" controlTypeID="__group__" x="27" y="482" w="16" h="19" measuredW="16" measuredH="19" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="3" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="137">
+          <controlProperties>
+            <color>0</color>
+            <icon>DownTriangleIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="16" h="10" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="137">
+          <controlProperties>
+            <borderColor>16777215</borderColor>
+            <shape>rectangle</shape>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="138" controlTypeID="__group__" x="27" y="200" w="16" h="20" measuredW="16" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="4" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="138">
+          <controlProperties>
+            <color>0</color>
+            <icon>DownTriangleIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="16" h="9" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="138">
+          <controlProperties>
+            <borderColor>16777215</borderColor>
+            <shape>rectangle</shape>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::Label" x="43" y="105" w="-1" h="-1" measuredW="60" measuredH="22" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>GW%D6-DB</text>
+      </controlProperties>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Label" x="43" y="124" w="158" h="23" measuredW="114" measuredH="19" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>10</size>
+        <text>%28Verwaltung%20als%20Admin%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::Icon" x="161" y="320" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16750848</color>
+        <icon>LeftFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::Label" x="216" y="160" w="-1" h="-1" measuredW="160" measuredH="22" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>%DCbersicht%20Energielder</text>
+      </controlProperties>
+    </control>
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::Label" x="216" y="194" w="41" h="20" measuredW="40" measuredH="22" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Zeige%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="148" controlTypeID="com.balsamiq.mockups::ComboBox" x="260" y="193" w="-1" h="-1" measuredW="118" measuredH="22" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Energiefelder</text>
+      </controlProperties>
+    </control>
+    <control controlID="149" controlTypeID="com.balsamiq.mockups::Label" x="384" y="192" w="41" h="20" measuredW="26" measuredH="22" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>aus</text>
+      </controlProperties>
+    </control>
+    <control controlID="150" controlTypeID="com.balsamiq.mockups::ComboBox" x="420" y="192" w="-1" h="-1" measuredW="121" measuredH="22" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>allen%20L%E4ndern</text>
+      </controlProperties>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::Image" x="216" y="290" w="68" h="66" measuredW="77" measuredH="79" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::Label" x="301" y="292" w="109" h="22" measuredW="107" measuredH="22" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Wien%20%28%D6sterreich%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::Label" x="216" y="247" w="-1" h="-1" measuredW="69" measuredH="22" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>91%20Treffer%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::Icon" x="768" y="196" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GearIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Link" x="789" y="193" w="-1" h="-1" measuredW="71" measuredH="22" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exportieren</text>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Label" x="420" y="292" w="200" h="22" measuredW="186" measuredH="22" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5B21%20Mitglieder%5D%20%20%28%5B4%20Koordinatoren%5D%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Link" x="791" y="292" w="-1" h="-1" measuredW="43" measuredH="22" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Twitter</text>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Icon" x="763" y="295" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Link" x="793" y="314" w="-1" h="-1" measuredW="62" measuredH="22" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Facebook</text>
+      </controlProperties>
+    </control>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::Icon" x="765" y="317" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::Label" x="301" y="312" w="-1" h="-1" measuredW="253" measuredH="22" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>N%E4chste%20Treffen%3A%2027.8.2011%20%28Yorkstrasse%204%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="169" controlTypeID="com.balsamiq.mockups::Label" x="301" y="334" w="-1" h="-1" measuredW="409" measuredH="22" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%DCber%20uns%3A%20%22Wir%20suchen%20zur%20Zeit%20xy.%20Unsere%20Gruppe%20unterteil%20sich%20in%20...%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::Image" x="216" y="376" w="68" h="66" measuredW="77" measuredH="79" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::Label" x="301" y="378" w="109" h="22" measuredW="107" measuredH="22" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Wien%20%28%D6sterreich%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="172" controlTypeID="com.balsamiq.mockups::Label" x="420" y="378" w="200" h="22" measuredW="186" measuredH="22" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5B21%20Mitglieder%5D%20%20%28%5B4%20Koordinatoren%5D%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::Link" x="791" y="378" w="-1" h="-1" measuredW="43" measuredH="22" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Twitter</text>
+      </controlProperties>
+    </control>
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::Icon" x="763" y="381" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="175" controlTypeID="com.balsamiq.mockups::Link" x="793" y="400" w="-1" h="-1" measuredW="62" measuredH="22" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Facebook</text>
+      </controlProperties>
+    </control>
+    <control controlID="176" controlTypeID="com.balsamiq.mockups::Icon" x="765" y="403" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="177" controlTypeID="com.balsamiq.mockups::Label" x="301" y="398" w="-1" h="-1" measuredW="253" measuredH="22" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>N%E4chste%20Treffen%3A%2027.8.2011%20%28Yorkstrasse%204%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::Label" x="301" y="420" w="-1" h="-1" measuredW="409" measuredH="22" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%DCber%20uns%3A%20%22Wir%20suchen%20zur%20Zeit%20xy.%20Unsere%20Gruppe%20unterteil%20sich%20in%20...%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::Image" x="216" y="462" w="68" h="66" measuredW="77" measuredH="79" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::Label" x="301" y="464" w="109" h="22" measuredW="107" measuredH="22" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Wien%20%28%D6sterreich%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="181" controlTypeID="com.balsamiq.mockups::Label" x="420" y="464" w="200" h="22" measuredW="186" measuredH="22" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5B21%20Mitglieder%5D%20%20%28%5B4%20Koordinatoren%5D%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Link" x="791" y="464" w="-1" h="-1" measuredW="43" measuredH="22" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Twitter</text>
+      </controlProperties>
+    </control>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::Icon" x="763" y="467" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::Link" x="793" y="486" w="-1" h="-1" measuredW="62" measuredH="22" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Facebook</text>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::Icon" x="765" y="489" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::Label" x="301" y="484" w="-1" h="-1" measuredW="253" measuredH="22" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>N%E4chste%20Treffen%3A%2027.8.2011%20%28Yorkstrasse%204%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::Label" x="301" y="506" w="-1" h="-1" measuredW="409" measuredH="22" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%DCber%20uns%3A%20%22Wir%20suchen%20zur%20Zeit%20xy.%20Unsere%20Gruppe%20unterteil%20sich%20in%20...%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="188" controlTypeID="com.balsamiq.mockups::Image" x="216" y="550" w="68" h="66" measuredW="77" measuredH="79" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="189" controlTypeID="com.balsamiq.mockups::Label" x="301" y="552" w="109" h="22" measuredW="107" measuredH="22" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Wien%20%28%D6sterreich%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="190" controlTypeID="com.balsamiq.mockups::Label" x="420" y="552" w="200" h="22" measuredW="186" measuredH="22" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5B21%20Mitglieder%5D%20%20%28%5B4%20Koordinatoren%5D%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="191" controlTypeID="com.balsamiq.mockups::Link" x="791" y="552" w="-1" h="-1" measuredW="43" measuredH="22" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Twitter</text>
+      </controlProperties>
+    </control>
+    <control controlID="192" controlTypeID="com.balsamiq.mockups::Icon" x="763" y="555" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="193" controlTypeID="com.balsamiq.mockups::Link" x="793" y="574" w="-1" h="-1" measuredW="62" measuredH="22" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Facebook</text>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Icon" x="765" y="577" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::Label" x="301" y="572" w="-1" h="-1" measuredW="253" measuredH="22" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>N%E4chste%20Treffen%3A%2027.8.2011%20%28Yorkstrasse%204%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Label" x="301" y="594" w="-1" h="-1" measuredW="409" measuredH="22" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%DCber%20uns%3A%20%22Wir%20suchen%20zur%20Zeit%20xy.%20Unsere%20Gruppe%20unterteil%20sich%20in%20...%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::Image" x="216" y="639" w="68" h="66" measuredW="77" measuredH="79" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::Label" x="301" y="641" w="109" h="22" measuredW="107" measuredH="22" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Wien%20%28%D6sterreich%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::Label" x="420" y="641" w="200" h="22" measuredW="186" measuredH="22" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5B21%20Mitglieder%5D%20%20%28%5B4%20Koordinatoren%5D%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::Link" x="791" y="641" w="-1" h="-1" measuredW="43" measuredH="22" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Twitter</text>
+      </controlProperties>
+    </control>
+    <control controlID="201" controlTypeID="com.balsamiq.mockups::Icon" x="763" y="644" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::Link" x="793" y="663" w="-1" h="-1" measuredW="62" measuredH="22" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Facebook</text>
+      </controlProperties>
+    </control>
+    <control controlID="203" controlTypeID="com.balsamiq.mockups::Icon" x="765" y="666" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="204" controlTypeID="com.balsamiq.mockups::Label" x="301" y="661" w="-1" h="-1" measuredW="253" measuredH="22" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>N%E4chste%20Treffen%3A%2027.8.2011%20%28Yorkstrasse%204%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="205" controlTypeID="com.balsamiq.mockups::Label" x="301" y="683" w="-1" h="-1" measuredW="409" measuredH="22" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%DCber%20uns%3A%20%22Wir%20suchen%20zur%20Zeit%20xy.%20Unsere%20Gruppe%20unterteil%20sich%20in%20...%22</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
