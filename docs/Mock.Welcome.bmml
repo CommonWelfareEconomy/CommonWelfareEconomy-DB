@@ -280,5 +280,12 @@
         <text>%7C</text>
       </controlProperties>
     </control>
+    <control controlID="219" controlTypeID="com.balsamiq.mockups::Link" x="761" y="506" w="-1" h="-1" measuredW="197" measuredH="27" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>18</size>
+        <text>Wir%20suchen%20Mitstreiter</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

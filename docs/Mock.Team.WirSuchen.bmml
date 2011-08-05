@@ -1,0 +1,165 @@
+<mockup version="1.0" skin="sketch" measuredW="1384" measuredH="908" mockupW="1376" mockupH="883">
+  <controls>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="25" w="974" h="883" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Richtig-oder-falsch%3F%0Ahttp%3A//db.gemeinwohl-%F6konomie.de/willkommen</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::Label" x="43" y="105" w="-1" h="-1" measuredW="60" measuredH="22" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>GW%D6-DB</text>
+      </controlProperties>
+    </control>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::Paragraph" x="876" y="103" w="68" h="26" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%5BLogin%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::FieldSet" x="761" y="208" w="-1" h="-1" measuredW="200" measuredH="170" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::TextInput" x="776" y="259" w="155" h="-1" measuredW="73" measuredH="26" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::TextInput" x="776" y="318" w="155" h="-1" measuredW="73" measuredH="26" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::Label" x="776" y="238" w="-1" h="-1" measuredW="89" measuredH="22" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Benutzername</text>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::Label" x="776" y="296" w="-1" h="-1" measuredW="59" measuredH="22" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Passwort</text>
+      </controlProperties>
+    </control>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::FieldSet" x="759" y="393" w="200" h="90" measuredW="200" measuredH="170" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Registrieren</text>
+      </controlProperties>
+    </control>
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::Label" x="776" y="418" w="-1" h="-1" measuredW="144" measuredH="22" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Noch%20kein%20Nutzerkonto%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="201" controlTypeID="com.balsamiq.mockups::Link" x="776" y="444" w="-1" h="-1" measuredW="91" measuredH="22" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hier%20anmelden%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="209" controlTypeID="com.balsamiq.mockups::Link" x="36" y="149" w="-1" h="-1" measuredW="144" measuredH="22" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3C%20zur%FCck%20zur%20Hauptseite</text>
+      </controlProperties>
+    </control>
+    <control controlID="216" controlTypeID="com.balsamiq.mockups::Link" x="751" y="839" w="-1" h="-1" measuredW="69" measuredH="22" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Impressum</text>
+      </controlProperties>
+    </control>
+    <control controlID="217" controlTypeID="com.balsamiq.mockups::Link" x="832" y="839" w="-1" h="-1" measuredW="88" measuredH="22" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Mehr%20%FCber%20uns</text>
+      </controlProperties>
+    </control>
+    <control controlID="218" controlTypeID="com.balsamiq.mockups::Label" x="823" y="838" w="10" h="22" measuredW="10" measuredH="22" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%7C</text>
+      </controlProperties>
+    </control>
+    <control controlID="219" controlTypeID="com.balsamiq.mockups::Label" x="216" y="147" w="-1" h="-1" measuredW="199" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>18</size>
+        <text>Wir%20Suchen%20Mitstreiter</text>
+      </controlProperties>
+    </control>
+    <control controlID="220" controlTypeID="com.balsamiq.mockups::TextInput" x="217" y="103" w="253" h="-1" measuredW="50" measuredH="26" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suche</text>
+      </controlProperties>
+    </control>
+    <control controlID="226" controlTypeID="com.balsamiq.mockups::Link" x="761" y="506" w="-1" h="-1" measuredW="197" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>18</size>
+        <text>Wir%20suchen%20Mitstreiter</text>
+      </controlProperties>
+    </control>
+    <control controlID="227" controlTypeID="com.balsamiq.mockups::Label" x="216" y="257" w="199" h="27" measuredW="127" measuredH="25" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Administratoren</text>
+      </controlProperties>
+    </control>
+    <control controlID="228" controlTypeID="com.balsamiq.mockups::Label" x="216" y="600" w="199" h="27" measuredW="85" measuredH="25" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Entwickler</text>
+      </controlProperties>
+    </control>
+    <control controlID="229" controlTypeID="com.balsamiq.mockups::Label" x="216" y="421" w="199" h="27" measuredW="182" measuredH="25" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Organisatoren/Planung</text>
+      </controlProperties>
+    </control>
+    <control controlID="230" controlTypeID="com.balsamiq.mockups::Paragraph" x="216" y="184" w="382" h="46" measuredW="200" measuredH="140" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hast%20Du%20Spass%20daran%20mit%20anderen%20gemeinsam%20die%20Welt%20besser%20zu%20machen.%20Wir%20suchen%20*ehrenamtliche*%20Mitstreiter.%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="234" controlTypeID="com.balsamiq.mockups::Label" x="216" y="334" w="199" h="27" measuredW="184" measuredH="25" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Gestaltung%20und%20Design%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="235" controlTypeID="com.balsamiq.mockups::Label" x="214" y="499" w="199" h="27" measuredW="118" measuredH="25" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>SEO/Marketing</text>
+      </controlProperties>
+    </control>
+    <control controlID="236" controlTypeID="com.balsamiq.mockups::Paragraph" x="218" y="281" w="518" h="49" measuredW="200" measuredH="140" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Du%20kennst%20Du%20ich%20aus%20mit%20Servern%3F%20Du%20hast%20Lust%20dabei%20die%20Webseite%20und%20interne%20Tools%20zu%20am%20Laufen%20zu%20halten%3F%20Sichtworte%3A%20Linux%2C%20Email%2C%20Sicherheit%2C%20Account-Verwaltung%2C%20Apache%2C%20Mono%2C%20PHP%2C%20Drupal%2C%20Backups</text>
+      </controlProperties>
+    </control>
+    <control controlID="237" controlTypeID="com.balsamiq.mockups::Paragraph" x="216" y="361" w="460" h="49" measuredW="200" measuredH="140" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Du%20m%F6chtest%20die%20Webseite%20besser%20aussehen%20lassen.%20Du%20redest%20gerne%20%FCber%20%22Conversation-Rate%22%20und%20Usability.</text>
+      </controlProperties>
+    </control>
+    <control controlID="238" controlTypeID="com.balsamiq.mockups::Paragraph" x="218" y="444" w="460" h="49" measuredW="200" measuredH="140" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Arbeit%20braucht%20Planung.%20Du%20kennst%20Dich%20aus%20mit%20IT-Projektmanagement%3F%20Melde%20Dich%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="239" controlTypeID="com.balsamiq.mockups::Paragraph" x="216" y="524" w="514" h="60" measuredW="200" measuredH="140" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Du%20sprichst%20von%20Landing-pages%20und%20Target-Groups.%20Du%20kannst%20Du%20vorstellen%20zu%20einer%20Anmeldung%20%22Lead%22%20zu%20sagen.%20Du%20weist%20wie%20eine%20Keywordanalyse%20funktioniert%3F%20Du%20m%F6chtest%20mehr%20Traffic%20Richtig%20Gemeinwohl%20organisieren%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="240" controlTypeID="com.balsamiq.mockups::Paragraph" x="216" y="629" w="514" h="60" measuredW="200" measuredH="140" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Du%20redest%20auch%20gerne%20mal%20%FCber%20Mehrfachverbung%20vs.%20Mixins.%20Refaktorisierung%20sollte%20am%20Besten%20Tool%20getrieben%20funktionieren.%20ORM%2C%20MVC%20und%20REST%20sind%20f%FCr%20Dich%20alte%20Bekannte%20oder%20m%F6chtest%2C%20dass%20sie%20das%20werden%3F%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="242" controlTypeID="com.balsamiq.mockups::Paragraph" x="1184" y="281" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="245" controlTypeID="com.balsamiq.mockups::Label" x="440" y="742" w="296" h="30" measuredW="277" measuredH="22" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <italic>true</italic>
+        <size>13</size>
+        <text>Kontakt%3A%20%5Bemail%5D%20/%20%5Bskype%5D%20/%20%5Btwitter%5D%20/%20%5Bg+%5D%20/%20%5Bfacebook%5D</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
