@@ -1,0 +1,215 @@
+<mockup version="1.0" skin="sketch" measuredW="968" measuredH="793" mockupW="960" mockupH="768">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="25" w="960" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gemeinwohl%20Bilanz%0Ahttp%3A//db.gemeinwohl-%F6konomie.de/bilanz/admin/mueller-buero-dienstleistung/D4</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="750" y="105" w="218" h="26" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hallo%20%5BLiesschen%20M%FCller%5D%20%7C%20%5BLogout%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Title" x="108" y="231" w="-1" h="-1" measuredW="60" measuredH="50" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>D4</text>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Canvas" x="789" y="233" w="100" h="48" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Paragraph" x="166" y="232" w="509" h="24" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>%20SOZIALE%20GESTALTUNG%20DER%20PRODUKTE%20UND%20DIENSTLEISTUNGE</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Paragraph" x="802" y="239" w="99" h="36" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20Nicht%20%0Abewertet%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::VRule" x="789" y="238" w="-1" h="38" measuredW="5" measuredH="100" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Label" x="182" y="250" w="-1" h="-1" measuredW="122" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Noch%20nicht%20bewertet</text>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Icon" x="168" y="252" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactsIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Title" x="108" y="135" w="418" h="-1" measuredW="418" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Gemeinwohlbilanz%202012%3A%20M%FCller%20B%FCrodienstleistungen%20GmbH</text>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Paragraph" x="108" y="155" w="200" h="57" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ausf%FCllen%20Bilanzpunkt</text>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Icon" x="789" y="193" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>LeftTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Icon" x="871" y="193" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::Label" x="807" y="190" w="62" h="21" measuredW="56" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*2*%20von%2017</text>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::Paragraph" x="115" y="424" w="509" h="24" measuredW="200" measuredH="140" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Sch%E4tzen%20Sie%20Ihre%20Unternehmung%20ein.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="169" controlTypeID="com.balsamiq.mockups::Paragraph" x="115" y="454" w="363" h="22" measuredW="200" measuredH="140" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*Unternehmeninterne%20Prozesse*</text>
+      </controlProperties>
+    </control>
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::Paragraph" x="442" y="334" w="385" h="53" measuredW="200" measuredH="140" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>11</size>
+        <text>Mittelwert%20anhand%20der%20ausgef%FCllte%20Kriterien%3A%2028%20Punkte.%20%28Differenz-%203%20Punkte%29%0ABitte%20bewerten%20Sie%20sich%20eher%20niedriger%20als%20h%F6her.%20%0ADas%20macht%20auch%20eine%20Verbesserung%20%FCber%20die%20n%E4chsten%20Jahre%20leichter.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="139" y="489" w="-1" h="-1" measuredW="485" measuredH="84" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28o%29%20Beginner%3A%20%20Evaluierung%20potentiell%20benachteiligter%20KundInnen%20der%20Gesch%E4ftsfelder%0A%28%20%29%20Improver%3A%20Konzept%20und%20Strategie%20zur%20Reduktion%20der%20Zugangsbarrieren%0A%28%20%29%20Achiever%3A%20Institutionalisierte%20%DCberpr%FCfung%20%FCber%20die%20Wirksamkeit%20der%20Ma%DFnahme%0A%28%20%29%20Leader%3A%20Integration%20von%20NGOs%20in%20die%20Gestaltung%20von%20Produkten%20/%20Dienstleistungen</text>
+      </controlProperties>
+    </control>
+    <control controlID="172" controlTypeID="com.balsamiq.mockups::Label" x="115" y="470" w="-1" h="-1" measuredW="58" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Wir%20sind%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::Paragraph" x="115" y="597" w="588" h="22" measuredW="200" measuredH="140" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*Barrierefreier%20Zugang%20zu%20Produkten%20und%20Dienstleistungen%20%28physisch%2C%20visuell%2C%20sprachlich%29*</text>
+      </controlProperties>
+    </control>
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="136" y="634" w="-1" h="-1" measuredW="485" measuredH="84" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28%29%20Beginner%3A%20%20Evaluierung%20potentiell%20benachteiligter%20KundInnen%20der%20Gesch%E4ftsfelder%0A%28%20%29%20Improver%3A%20Konzept%20und%20Strategie%20zur%20Reduktion%20der%20Zugangsbarrieren%0A%28o%29%20Achiever%3A%20Institutionalisierte%20%DCberpr%FCfung%20%FCber%20die%20Wirksamkeit%20der%20Ma%DFnahme%0A%28%20%29%20Leader%3A%20Integration%20von%20NGOs%20in%20die%20Gestaltung%20von%20Produkten%20/%20Dienstleistungen</text>
+      </controlProperties>
+    </control>
+    <control controlID="175" controlTypeID="com.balsamiq.mockups::Label" x="115" y="613" w="-1" h="-1" measuredW="58" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Wir%20sind%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::TextArea" x="664" y="505" w="237" h="68" measuredW="200" measuredH="140" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>M%FCller%3A%2016.7%3A%20Sind%20wir%20nicht%20eher%20Improver%3F%20Immerhin%20machen%20wir%20doch%20x%20u.%20y%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Paragraph" x="133" y="279" w="96" h="24" measuredW="200" measuredH="140" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Hintergrund</text>
+      </controlProperties>
+    </control>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::Paragraph" x="132" y="300" w="67" h="24" measuredW="200" measuredH="140" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ziel</text>
+      </controlProperties>
+    </control>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::Icon" x="113" y="281" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::Icon" x="113" y="304" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::Link" x="216" y="280" w="-1" h="-1" measuredW="99" measuredH="16" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>%28aufklappen%20f%FCr%20Details%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::Link" x="166" y="302" w="-1" h="-1" measuredW="99" measuredH="16" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>%28aufklappen%20f%FCr%20Details%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="188" controlTypeID="com.balsamiq.mockups::Paragraph" x="664" y="489" w="169" h="22" measuredW="200" measuredH="140" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Bemerkungen%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="189" controlTypeID="com.balsamiq.mockups::TextArea" x="666" y="641" w="237" h="83" measuredW="200" measuredH="140" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="190" controlTypeID="com.balsamiq.mockups::Paragraph" x="664" y="624" w="130" h="22" measuredW="200" measuredH="140" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Bemerkungen%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="191" controlTypeID="com.balsamiq.mockups::TabBar" x="108" y="384" w="829" h="409" measuredW="209" measuredH="100" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <selectedIndex>0</selectedIndex>
+        <text>Kriterien%2C%20Bericht</text>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Paragraph" x="108" y="339" w="74" h="24" measuredW="200" measuredH="140" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Wir%20sind%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::ComboBox" x="177" y="337" w="-1" h="-1" measuredW="85" measuredH="23" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Improver</text>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Paragraph" x="273" y="338" w="74" h="24" measuredW="200" measuredH="140" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Punktzahl%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::TextInput" x="347" y="333" w="30" h="-1" measuredW="30" measuredH="27" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>25</text>
+      </controlProperties>
+    </control>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::Paragraph" x="110" y="737" w="588" h="22" measuredW="200" measuredH="140" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>Ber%FCcksichtigung%20sozialer%20Aspekte%20und%20%F6konomischer%20Barrieren%20der%20KundInnen%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::Paragraph" x="381" y="333" w="96" h="35" measuredW="200" measuredH="140" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>M%F6glich%20sind%20%0A40%20Punkte.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

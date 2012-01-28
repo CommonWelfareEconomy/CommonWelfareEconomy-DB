@@ -1,0 +1,360 @@
+<mockup version="1.0" skin="sketch" measuredW="968" measuredH="793" mockupW="960" mockupH="768">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="25" w="960" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gemeinwohl%20Bilanz%0Ahttp%3A//db.gemeinwohl-%F6konomie.de/bilanz/admin/mueller-buero-dienstleistung/uebersicht</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="750" y="105" w="218" h="26" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hallo%20%5BLiesschen%20M%FCller%5D%20%7C%20%5BLogout%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Title" x="137" y="139" w="-1" h="-1" measuredW="418" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Gemeinwohlbilanz%202012%3A%20M%FCller%20B%FCrodienstleistungen%20GmbH</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Title" x="140" y="301" w="-1" h="-1" measuredW="51" measuredH="50" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>A1</text>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Paragraph" x="198" y="302" w="351" h="24" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ehisches%20Beschaffungsmanagement</text>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::Paragraph" x="766" y="308" w="99" h="36" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>30%20Punkte%0AImprover</text>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::VRule" x="753" y="309" w="-1" h="38" measuredW="5" measuredH="100" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Canvas" x="753" y="304" w="100" h="48" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>11982760</color>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::HRule" x="139" y="283" w="741" h="-1" measuredW="100" measuredH="5" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="93" controlTypeID="com.balsamiq.mockups::Label" x="752" y="262" w="-1" h="-1" measuredW="45" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Punkte</text>
+      </controlProperties>
+    </control>
+    <control controlID="99" controlTypeID="com.balsamiq.mockups::Label" x="214" y="320" w="-1" h="-1" measuredW="258" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ausgef%FCllt%20von%20Liesschen%20M%FCller%20u.%206%20anderen.</text>
+      </controlProperties>
+    </control>
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::Icon" x="200" y="322" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactsIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="101" controlTypeID="com.balsamiq.mockups::Title" x="140" y="363" w="-1" h="-1" measuredW="50" measuredH="50" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>B1</text>
+      </controlProperties>
+    </control>
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::Canvas" x="753" y="366" w="100" h="48" measuredW="100" measuredH="70" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Paragraph" x="198" y="364" w="351" h="24" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ethisches%20Finanzmanagement</text>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Paragraph" x="766" y="372" w="99" h="36" measuredW="200" measuredH="140" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20Nicht%20%0Abewertet%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::VRule" x="753" y="371" w="-1" h="38" measuredW="5" measuredH="100" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::Label" x="214" y="382" w="-1" h="-1" measuredW="122" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Noch%20nicht%20bewertet</text>
+      </controlProperties>
+    </control>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::Icon" x="200" y="384" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactsIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::Title" x="139" y="423" w="-1" h="-1" measuredW="52" measuredH="50" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>C1</text>
+      </controlProperties>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::Canvas" x="752" y="426" w="100" h="48" measuredW="100" measuredH="70" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>11982760</color>
+      </controlProperties>
+    </control>
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="424" w="351" h="24" measuredW="200" measuredH="140" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Arbeitsplatzqualit%E4t</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::Paragraph" x="765" y="432" w="99" h="36" measuredW="200" measuredH="140" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>14%20Punkte%0ALeader%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::VRule" x="752" y="427" w="-1" h="38" measuredW="5" measuredH="100" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Label" x="213" y="440" w="-1" h="-1" measuredW="181" measuredH="21" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ausgef%FCllt%20von%20Liesschen%20M%FCller</text>
+      </controlProperties>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Icon" x="199" y="444" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactsIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::Title" x="137" y="483" w="-1" h="-1" measuredW="60" measuredH="50" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>C2</text>
+      </controlProperties>
+    </control>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::Canvas" x="752" y="486" w="100" h="48" measuredW="100" measuredH="70" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>11982760</color>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="484" w="351" h="24" measuredW="200" measuredH="140" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Gerechte%20Verteilung%20des%20Arbeitsvolumens</text>
+      </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::Paragraph" x="765" y="492" w="99" h="36" measuredW="200" measuredH="140" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>30%20Punkte%0ALeader%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::VRule" x="752" y="487" w="-1" h="38" measuredW="5" measuredH="100" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::Label" x="213" y="500" w="-1" h="-1" measuredW="181" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ausgef%FCllt%20von%20Liesschen%20M%FCller</text>
+      </controlProperties>
+    </control>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::Icon" x="199" y="504" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactsIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Title" x="139" y="548" w="-1" h="-1" measuredW="59" measuredH="50" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>C3</text>
+      </controlProperties>
+    </control>
+    <control controlID="124" controlTypeID="com.balsamiq.mockups::Canvas" x="752" y="549" w="100" h="48" measuredW="100" measuredH="70" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>11982760</color>
+      </controlProperties>
+    </control>
+    <control controlID="125" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="549" w="412" h="24" measuredW="200" measuredH="140" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Fo/%F6rderung%20%F6kologischesVerhalten%20der%20MitarbeiterInnen</text>
+      </controlProperties>
+    </control>
+    <control controlID="126" controlTypeID="com.balsamiq.mockups::Paragraph" x="765" y="555" w="99" h="36" measuredW="200" measuredH="140" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>40%20Punkte%0AAchiever</text>
+      </controlProperties>
+    </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::VRule" x="752" y="550" w="-1" h="38" measuredW="5" measuredH="100" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::Label" x="213" y="565" w="-1" h="-1" measuredW="181" measuredH="21" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ausgef%FCllt%20von%20Liesschen%20M%FCller</text>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::Icon" x="199" y="567" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactsIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::Title" x="139" y="613" w="-1" h="-1" measuredW="61" measuredH="50" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>C4</text>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::Canvas" x="752" y="614" w="100" h="48" measuredW="100" measuredH="70" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>11982760</color>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="614" w="412" h="24" measuredW="200" measuredH="140" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Fo/%F6rderung%20%F6kologischesVerhalten%20der%20MitarbeiterInnen</text>
+      </controlProperties>
+    </control>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::Paragraph" x="765" y="620" w="99" h="36" measuredW="200" measuredH="140" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>15%20Punkte%0AAchiever</text>
+      </controlProperties>
+    </control>
+    <control controlID="135" controlTypeID="com.balsamiq.mockups::VRule" x="752" y="615" w="-1" h="38" measuredW="5" measuredH="100" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::Label" x="213" y="630" w="-1" h="-1" measuredW="181" measuredH="21" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ausgef%FCllt%20von%20Liesschen%20M%FCller</text>
+      </controlProperties>
+    </control>
+    <control controlID="137" controlTypeID="com.balsamiq.mockups::Icon" x="199" y="632" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactsIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::Title" x="139" y="678" w="-1" h="-1" measuredW="58" measuredH="50" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>C5</text>
+      </controlProperties>
+    </control>
+    <control controlID="139" controlTypeID="com.balsamiq.mockups::Canvas" x="752" y="679" w="100" h="48" measuredW="100" measuredH="70" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>11982760</color>
+      </controlProperties>
+    </control>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="679" w="412" h="24" measuredW="200" measuredH="140" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Fo/%F6rderung%20%F6kologischesVerhalten%20der%20MitarbeiterInnen</text>
+      </controlProperties>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Paragraph" x="765" y="685" w="99" h="36" measuredW="200" measuredH="140" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>15%20Punkte%0AAchiever</text>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::VRule" x="752" y="680" w="-1" h="38" measuredW="5" measuredH="100" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::Label" x="213" y="695" w="-1" h="-1" measuredW="181" measuredH="21" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ausgef%FCllt%20von%20Liesschen%20M%FCller</text>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Icon" x="199" y="697" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactsIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::Canvas" x="137" y="166" w="365" h="31" measuredW="100" measuredH="70" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::Paragraph" x="139" y="167" w="363" h="11" measuredW="200" measuredH="140" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>13</size>
+        <text>14%20von%2018%20Kriterien%20ausgef%FCllt%20von%205%20Personen</text>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::Paragraph" x="141" y="180" w="320" h="28" measuredW="200" measuredH="140" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>11</size>
+        <text>%5BCheckliste%20KO%20Kriterien%5D%20%7Bcolor%3A%23338822%7Dpositiv%7Bcolor%7D%20von%203%20Personen%20ausgef%FCllt%20%3A-%29%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Paragraph" x="586" y="197" w="186" h="24" measuredW="200" measuredH="140" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Gesamtpunktzahl%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Canvas" x="750" y="197" w="100" h="48" measuredW="100" measuredH="70" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>11982760</color>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Paragraph" x="763" y="201" w="99" h="36" measuredW="200" measuredH="140" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>279%20Punkte%0A%20Improver</text>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::VRule" x="750" y="202" w="-1" h="38" measuredW="5" measuredH="100" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Paragraph" x="161" y="209" w="173" h="24" measuredW="200" measuredH="140" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Unternehmensdaten</text>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Icon" x="139" y="211" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Link" x="314" y="210" w="-1" h="-1" measuredW="99" measuredH="16" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>%28aufklappen%20f%FCr%20Details%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Paragraph" x="161" y="233" w="173" h="24" measuredW="200" measuredH="140" zOrder="64" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Beteiligte%20Kollegen%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Icon" x="139" y="235" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Link" x="299" y="235" w="-1" h="-1" measuredW="99" measuredH="16" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>%28aufklappen%20f%FCr%20Details%29</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

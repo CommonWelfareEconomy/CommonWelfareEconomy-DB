@@ -1,0 +1,170 @@
+<mockup version="1.0" skin="sketch" measuredW="968" measuredH="793" mockupW="960" mockupH="768">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="25" w="960" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gemeinwohl%20Bilanz%0Ahttp%3A//db.gemeinwohl-%F6konomie.de/bilanz/admin/mueller-buero-dienstleistung/uebersicht</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="750" y="105" w="218" h="26" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hallo%20%5BLiesschen%20M%FCller%5D%20%7C%20%5BLogout%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Title" x="108" y="231" w="-1" h="-1" measuredW="60" measuredH="50" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>D4</text>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Canvas" x="789" y="233" w="100" h="48" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Paragraph" x="166" y="232" w="509" h="24" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>%20SOZIALE%20GESTALTUNG%20DER%20PRODUKTE%20UND%20DIENSTLEISTUNGE</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Paragraph" x="802" y="239" w="99" h="36" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20Nicht%20%0Abewertet%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::VRule" x="789" y="238" w="-1" h="38" measuredW="5" measuredH="100" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Label" x="182" y="250" w="-1" h="-1" measuredW="122" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Noch%20nicht%20bewertet</text>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Icon" x="168" y="252" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ContactsIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Title" x="108" y="135" w="418" h="-1" measuredW="418" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Gemeinwohlbilanz%202012%3A%20M%FCller%20B%FCrodienstleistungen%20GmbH</text>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Paragraph" x="108" y="155" w="200" h="57" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ausf%FCllen%20Bilanzpunkt</text>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Icon" x="789" y="193" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>LeftTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Icon" x="871" y="193" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::Label" x="807" y="190" w="62" h="21" measuredW="56" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*2*%20von%2017</text>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::Paragraph" x="115" y="424" w="509" h="24" measuredW="200" measuredH="140" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Texte%20f%FCr%20den%20offiziellen%20u.%20%F6ffentlichen%20Bericht.</text>
+      </controlProperties>
+    </control>
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::Paragraph" x="442" y="334" w="385" h="53" measuredW="200" measuredH="140" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>11</size>
+        <text>Mittelwert%20anhand%20der%20ausgef%FCllte%20Kriterien%3A%2028%20Punkte.%20%28Differenz-%203%20Punkte%29%0ABitte%20bewerten%20Sie%20sich%20eher%20niedriger%20als%20h%F6her.%20%0ADas%20macht%20auch%20eine%20Verbesserung%20%FCber%20die%20n%E4chsten%20Jahre%20leichter.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Paragraph" x="133" y="277" w="96" h="24" measuredW="200" measuredH="140" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Hintergrund</text>
+      </controlProperties>
+    </control>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::Paragraph" x="132" y="298" w="67" h="24" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ziel</text>
+      </controlProperties>
+    </control>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::Icon" x="113" y="279" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::Icon" x="115" y="302" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::Link" x="216" y="278" w="-1" h="-1" measuredW="99" measuredH="16" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>%28aufklappen%20f%FCr%20Details%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::Link" x="166" y="300" w="-1" h="-1" measuredW="99" measuredH="16" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>%28aufklappen%20f%FCr%20Details%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="191" controlTypeID="com.balsamiq.mockups::TabBar" x="108" y="384" w="829" h="409" measuredW="209" measuredH="100" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <selectedIndex>1</selectedIndex>
+        <text>Kriterien%2C%20Bericht</text>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Paragraph" x="108" y="339" w="74" h="24" measuredW="200" measuredH="140" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Wir%20sind%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::ComboBox" x="177" y="337" w="-1" h="-1" measuredW="85" measuredH="23" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Improver</text>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Paragraph" x="273" y="338" w="74" h="24" measuredW="200" measuredH="140" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Punktzahl%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::TextInput" x="347" y="333" w="30" h="-1" measuredW="30" measuredH="27" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>25</text>
+      </controlProperties>
+    </control>
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::Paragraph" x="381" y="333" w="96" h="35" measuredW="200" measuredH="140" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>M%F6glich%20sind%20%0A40%20Punkte.</text>
+      </controlProperties>
+    </control>
+    <control controlID="207" controlTypeID="com.balsamiq.mockups::TextArea" x="119" y="463" w="763" h="250" measuredW="200" measuredH="140" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sonnentor%20ber%FCcksichtigt%20bei%20vielen%20Produkten%20spezielle%20Bed%FCrfnisse%20der%20%0AKonsumenten%20wie%20zB%20Intoleranzen%20und%20Allergien%20und%20ist%20bem%FCht%2C%20Alternativen%20f%FCr%20die%20Betroffenen%20anzubieten%20und%20somit%20m%F6gliche%20Zugangsbarrieren%20%0Azu%20reduzieren.%20%0ADie%20Produkte%20sind%20%u2013%20soweit%20sinnvoll%20%u2013%20mit%20N%E4hrwertangaben%20und%20Allergiehinweisen%20versehen.%20Eine%20umfangreiche%20Information%2C%20Genuss-%20und%20Kochtipps%20%0Asowie%20sensorische%20Beschreibungen%20zu%20allen%20Produkten%20sind%20im%20Internet%20%0Aunter%20www.sonnentor.com%20und%20www.oekoinform.de%20nachzulesen.%20Die%20%0ASonnentor%20Gesch%E4fte%20sind%20ausnahmslos%20barrierefrei%20zug%E4nglich.%20Neben%20%0Adiesen%20Gesch%E4ften%20werden%20die%20Sonnentor%20Produkte%20haupts%E4chlich%20im%20BioFachhandel%20angeboten%2C%20wo%20der%20Konsument%20eine%20umfassende%20Beratung%20und%20%0Ahochqualitative%2C%20%F6kologische%20Produkte%20vorfindet.%20%0AJedes%20Jahr%20werden%20Produkte%20oder%20finanzielle%20Mittel%20f%FCr%20sozial%20Bed%FCrftige%20%0Azur%20Verf%FCgung%20gestellt%3A%20Produkt-%20und%20Geldspenden%20an%20Obdachlose%2C%20laufende%20</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="208" controlTypeID="com.balsamiq.mockups::Button" x="802" y="728" w="-1" h="-1" measuredW="81" measuredH="27" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Speichern</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

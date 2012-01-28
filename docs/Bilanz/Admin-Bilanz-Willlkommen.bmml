@@ -1,0 +1,46 @@
+<mockup version="1.0" skin="sketch" measuredW="968" measuredH="793" mockupW="960" mockupH="768">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="25" w="960" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Richtig-oder-falsch%3F%0Ahttp%3A//db.gemeinwohl-%F6konomie.de/gruppen/energiefelder</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="750" y="105" w="218" h="26" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hallo%20%5BLiesschen%20M%FCller%5D%20%7C%20%5BLogout%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Title" x="136" y="165" w="-1" h="-1" measuredW="376" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Gemeinwohlbilanz%3A%20M%FCller%20B%FCrodienstleistungen%20GmbH</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="138" y="233" w="413" h="20" measuredW="285" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5BBilanz%202011%5D%3A%20ver%F6ffentlicht/audtiert%20%20%28542%20Punkte%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="138" y="253" w="272" h="20" measuredW="108" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5BBilanz%202012%5D%3A%20offen</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Paragraph" x="136" y="301" w="576" h="139" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%D6ffentliches%20Profil%3A%20%0A-%20%5Bhttp%3A//unternehmen.gemeinwohl-oekonmier.org/mueller-buero-dienstleistungen%5D%0A-%20Die%20Bilanz%20kann%20nicht%20detailierte%20eingesehen%20werden%20%20%0A-%20Der%20Gemeinwohlbericht%20ist%20%F6ffentlich%0A%20%0AAllgemeine%20Fragen%3A%20%20%0A-%20Barbara%20Stefan%3A%20%2097%20563%2045%20%0A-%20b.stefan@gemeinwohl-oekonomie.org%0A%20%0ABilan/Auditierung%0A-%20Frank%20Meyer%3A%20%2088%2012%2044%2037%0A-%20f.meyer@gemeinwohl-oekonomie.org%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Icon" x="469" y="332" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Icon" x="400" y="348" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PencilIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
