@@ -40,50 +40,38 @@
                         <div class="well" style="padding: 22px 0;">
                             <ul class="nav nav-list">
                                 <li class="active"><a href="#"><i class="icon-heart icon-white"></i> Unternehmen (1740)</a></li>
-                                <li><a href="#"><i class="icon-heart"></i> Organisationen/Vereine (20)</a></li>
-                                <li><a href="#"><i class="icon-user"></i> Privatpersonen (400)</a></li>
-                                <li><a href="#"><i class="icon-user"></i> Politikerinnen (80)</a></li>
-                                <li><a href="#"><i class="icon-user"></i> BotaschfterInnen (150)</a></li>
+                                <li><a href="/"><i class="icon-heart"></i> Organisationen/Vereine (20)</a></li>
+                                <li><a href="/"><i class="icon-user"></i> Privatpersonen (400)</a></li>
+                                <li><a href="/"><i class="icon-user"></i> Politikerinnen (80)</a></li>
                             </ul>
                         </div>
                         
                         <div class="well">
                               <div class="btn-group">
-                              <a class="btn btn-large btn-success dropdown-toggle" data-toggle="dropdown" href="#" id="btnUnterstuetzerWerden"> &nbsp;   Unterstützer werden! &nbsp; &nbsp; &nbsp; <span class="caret"></span></a>
+                              <a class="btn btn-large btn-success dropdown-toggle" data-toggle="dropdown" href="#"> &nbsp;   Unterstützer werden! &nbsp; &nbsp; &nbsp; <span class="caret"></span></a>
                               <ul class="dropdown-menu">
-                                <li><a href="#">Als Unternehmen</a></li>
-                                <li><a href="#">Als Privatperson</a></li>
-                                <li><a href="#">Als Politiker</a></li>
-                                <li><a href="#">Als Botschafter</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
+                                  <li><a href="@Url.Action("Company","Supporter")">Als Unternehmen</a></li>
+                                  <li><a href="#">Als Privatperson</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="#">Als Organisation/Verein</a></li>
+                                  <li><a href="#">Als Politiker</a></li>
                               </ul>
                             </div>
-                        </div>
-                            
-                        
-                        <div class="well">
                         </div>
 
                     </div>
                 </div>
-               
-                <div class="span8">
+
+                <div class="span9">
+
                     <div class="row" style="padding: 0">
-                        
-                        @RenderBody()    
-                        
+                        @RenderBody()
                     </div>
                 </div>
 
                 <div class="span3">
-                    
-                    
-                    
-                            
                 </div>            
             </div>
-
 
         </div>
     </body>

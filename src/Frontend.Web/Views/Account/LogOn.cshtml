@@ -13,11 +13,12 @@
 <div class="span5" style="margin-left:100px;">
 
 @using (Html.BeginForm()) {
-    @Html.Message(Model.Message)
+    
     <div class="well">
         <fieldset>
             <legend>Anmelden</legend>
             
+                @Html.Message(Model.Message)
 
                 @Html.LabelFor(m => m.UserName)
                 @Html.TextBoxFor(m => m.UserName)
