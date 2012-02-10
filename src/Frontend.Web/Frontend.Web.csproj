@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -180,6 +181,16 @@
   <ItemGroup>
     <None Include="Assets\css\bootstrap.min.responsive" />
     <None Include="Assets\css\bootstrap.responsive" />
+    <Content Include="Views\Search\Search.cshtml" />
+    <Content Include="Views\Search\Details.cshtml" />
+    <Content Include="Views\Shared\_UserMessage.cshtml" />
+    <Content Include="Views\Shared\_PartialPage1.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{7F462313-60E9-4EE6-820A-E8D47392B2A9}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

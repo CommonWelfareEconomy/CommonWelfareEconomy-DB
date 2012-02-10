@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
 using Frontend.Web.Models;
+using GwoDb;
 
 namespace Frontend.Web.Controllers
 {
@@ -17,7 +18,7 @@ namespace Frontend.Web.Controllers
 
         public ActionResult LogOn()
         {
-            return View();
+            return View(new LogOnModel());
         }
 
         //
@@ -26,26 +27,9 @@ namespace Frontend.Web.Controllers
         [HttpPost]
         public ActionResult LogOn(LogOnModel model, string returnUrl)
         {
-            if (ModelState.IsValid)
-            {
-                if (Membership.ValidateUser(model.UserName, model.Password))
-                {
-                    FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
-                    if (Url.IsLocalUrl(returnUrl) && returnUrl.Length > 1 && returnUrl.StartsWith("/")
-                        && !returnUrl.StartsWith("//") && !returnUrl.StartsWith("/\\"))
-                    {
-                        return Redirect(returnUrl);
-                    }
-                    else
-                    {
-                        return RedirectToAction("Index", "Home");
-                    }
-                }
-                else
-                {
-                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
-                }
-            }
+            
+            model.Message = new Message(MessageType.IsError,  "Sie konnten nicht angemeldet werden.");   
+            
 
             // If we got this far, something failed, redisplay form
             return View(model);

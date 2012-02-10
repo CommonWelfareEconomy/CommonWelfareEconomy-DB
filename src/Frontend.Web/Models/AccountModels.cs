@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Security;
+using GwoDb;
 
 namespace Frontend.Web.Models
 {
@@ -29,6 +30,8 @@ namespace Frontend.Web.Models
 
     public class LogOnModel
     {
+        public Message Message;
+
         [Required]
         [Display(Name = "Benutzername")]
         public string UserName { get; set; }
