@@ -6,17 +6,12 @@ using Seedworks.Lib.Persistence;
 
 namespace GwoDb
 {
-    public class Person : IPersistable, WithDateModified
+    public class Person : DomainEntity
     {
-        public virtual int Id { get; set; }
-
         public virtual string Name { get; set; }
 
         public virtual Organisation Organisation { get; set; }
         public virtual IList<Newsletter> Subscriptions { get; set; }
-
-        public virtual DateTime DateCreated { get; set; }
-        public virtual DateTime DateModified { get; set; }
 
         public Person()
         {
