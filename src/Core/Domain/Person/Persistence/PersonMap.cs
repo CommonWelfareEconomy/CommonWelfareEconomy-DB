@@ -11,7 +11,7 @@ namespace GwoDb
         public PersonMap()
         {
             Id(x => x.Id);
-            HasOne(x => x.Company);
+            HasOne(x => x.Organisation);
             HasManyToMany(x => x.Subscriptions).Cascade.All().Table("Person_Newsletter");
             Map(x => x.Name);
             Map(x => x.DateCreated);

@@ -9,7 +9,7 @@ namespace GwoDb.Tests.Integration
     public class Newsletter_persistence_tests : BaseTest
     {
         [Test]
-        public void Should_create_company()
+        public void Should_create_organisation()
         {
             var newsletter = new Newsletter { Name = "Interne News" };
 

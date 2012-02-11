@@ -189,7 +189,7 @@
     <Content Include="Views\Shared\_PartialPage1.cshtml" />
     <Content Include="Views\Supporter\Company.cshtml" />
     <Content Include="Views\Supporter\Person.cshtml" />
-    <Content Include="Views\Supporter\Association.cshtml" />
+    <Content Include="Views\Supporter\Club.cshtml" />
     <Content Include="Views\Supporter\Politician.cshtml" />
   </ItemGroup>
   <ItemGroup>

@@ -6,13 +6,13 @@ using FluentNHibernate.Mapping;
 
 namespace GwoDb
 {
-    public class CompanyMap : ClassMap<Company>
+    public class OrganisationMap : ClassMap<Organisation>
     {
-        public CompanyMap()
+        public OrganisationMap()
         {
             Id(x => x.Id);
             Map(x => x.Name);
-            HasMany(x => x.Colleagues).Cascade.All();
+            HasMany(x => x.Users).Cascade.All();
             Map(x => x.DateCreated);
             Map(x => x.DateModified);            
         }

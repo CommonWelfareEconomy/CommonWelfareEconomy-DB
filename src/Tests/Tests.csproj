@@ -74,8 +74,8 @@
     <Compile Include="Arrange\Arrange_newsletter.cs" />
     <Compile Include="Arrange\Arrange_persons.cs" />
     <Compile Include="BaseTest.cs" />
-    <Compile Include="Integration.Persistence\Company_persistence_tests.cs" />
-    <Compile Include="Arrange\Arrange_companies.cs" />
+    <Compile Include="Integration.Persistence\Organisation_persistence_tests.cs" />
+    <Compile Include="Arrange\Arrange_organisations.cs" />
     <Compile Include="Integration.Persistence\Newsletter_persistence_tests.cs" />
     <Compile Include="Integration.Persistence\Person_persistence_tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

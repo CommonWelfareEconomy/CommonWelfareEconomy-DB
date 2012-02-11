@@ -7,7 +7,7 @@ using Seedworks.Lib.Persistence;
 
 namespace GwoDb
 {
-    public class CompanySearchSpec : SearchSpecificationBase<UserFilter, UserOrderBy>
+    public class OrganisationSearchSpec : SearchSpecificationBase<UserFilter, UserOrderBy>
     {
     }
 

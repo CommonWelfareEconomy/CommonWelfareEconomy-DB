@@ -12,7 +12,7 @@ namespace GwoDb
 
         public virtual string Name { get; set; }
 
-        public virtual Company Company { get; set; }
+        public virtual Organisation Organisation { get; set; }
         public virtual IList<Newsletter> Subscriptions { get; set; }
 
         public virtual DateTime DateCreated { get; set; }

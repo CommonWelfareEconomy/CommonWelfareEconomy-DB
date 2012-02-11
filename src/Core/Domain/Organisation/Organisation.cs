@@ -6,20 +6,20 @@ using Seedworks.Lib.Persistence;
 
 namespace GwoDb
 {
-    public class Company : IPersistable, WithDateModified
+    public class Organisation : IPersistable, WithDateModified
     {
         public virtual int Id { get; set; }
 
         public virtual string Name { get; set; }
 
-        public virtual IList<Person> Colleagues { get; set; }
+        public virtual IList<Person> Users { get; set; }
 
         public virtual DateTime DateCreated { get; set; }
         public virtual DateTime DateModified { get; set; }
 
-        public Company()
+        public Organisation()
         {
-            Colleagues = new List<Person>();
+            Users = new List<Person>();
         }
     }
 }

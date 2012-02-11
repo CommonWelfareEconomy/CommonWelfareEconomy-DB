@@ -69,10 +69,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\Company\Company.cs" />
-    <Compile Include="Domain\Company\Persistence\CompanyMap.cs" />
-    <Compile Include="Domain\Company\Persistence\CompanyRepository.cs" />
-    <Compile Include="Domain\Company\Persistence\CompanySearchSpec.cs" />
+    <Compile Include="Domain\Organisation\Organisation.cs" />
+    <Compile Include="Domain\Organisation\Persistence\OrganisationMap.cs" />
+    <Compile Include="Domain\Organisation\Persistence\OrganisationRepository.cs" />
+    <Compile Include="Domain\Organisation\Persistence\OrganisationSearchSpec.cs" />
     <Compile Include="Domain\Newsletter\Persistence\NewsletterMap.cs" />
     <Compile Include="Domain\Newsletter\Persistence\NewsletterRepository.cs" />
     <Compile Include="Domain\Newsletter\Newsletter.cs" />
