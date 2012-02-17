@@ -11,7 +11,7 @@ namespace GwoDb
         public virtual string Name { get; set; }
         public virtual string Industry { get; set; }
 
-        public virtual string ContributorsCountInfo { get; set; }
+        public virtual string Size { get; set; }
         public virtual string Url { get; set; }
         public virtual string Location { get; set; }
         public virtual string ZipCode { get; set; }

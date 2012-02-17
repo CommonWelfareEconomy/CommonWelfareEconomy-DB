@@ -1,4 +1,4 @@
-﻿@model Frontend.Web.Models.SupporterCompanyModel
+﻿@model SupporterCompanyModel
 @{
     ViewBag.Title = "Company";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -67,25 +67,25 @@
                 <div class="controls">
                     @Html.TextBoxFor(m => m.Location, new { @class = "span2"})
                     <span class="help-inline">Plz:</span>
-                    @Html.TextBoxFor(m => m.Plz, new { @class = "span1" })
+                    @Html.TextBoxFor(m => m.ZipCode, new { @class = "span1" })
                 </div>
             </div>
             
             <div class="control-group">
-                @Html.LabelFor(m => m.Enail)
+                @Html.LabelFor(m => m.Email)
                 
                 <div class="controls">
-                    @Html.TextBoxFor(m => m.Enail, new { @class = "span4"})
+                    @Html.TextBoxFor(m => m.Email, new { @class = "span4"})
                     <p class="help-block">Wir gehen vertrauensvoll mit Ihren Daten um. Die E-Mail wird nirgendwo öffentlich angezeigt.</p>
                 </div>
             </div>
 
             <div class="control-group">
-                @Html.LabelFor(m => m.Webpage)
+                @Html.LabelFor(m => m.Url)
                 <div class="controls">
                     <div class="input-prepend">
                         <span class="add-on">http://</span>
-                        @Html.PasswordFor(m => m.Webpage, new { @style = "width:245px;"})
+                        @Html.TextBoxFor(m => m.Url, new { @style = "width:245px;"})
                     </div>
                 </div>
             </div>

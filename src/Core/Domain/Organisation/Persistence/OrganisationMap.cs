@@ -13,7 +13,7 @@ namespace GwoDb
             Id(x => x.Id);
             Map(x => x.Name);
             Map(x => x.Industry);
-            Map(x => x.ContributorsCountInfo);
+            Map(x => x.Size);
             Map(x => x.Url);
             Map(x => x.Location);
             Map(x => x.ZipCode);
