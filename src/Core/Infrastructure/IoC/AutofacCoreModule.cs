@@ -10,14 +10,27 @@ namespace GwoDb.Infrastructure
 {
     public class AutofacCoreModule : Module
     {
+        private readonly bool _withTestProject;
+        
+        public AutofacCoreModule(){}
+
+        public AutofacCoreModule(bool withTestProject = true)
+        {
+            _withTestProject = withTestProject;
+        }
+
         protected override void Load(ContainerBuilder builder)
         {
             var assemblyCore = Assembly.Load("GwoDb.Core");
             builder.RegisterAssemblyTypes(assemblyCore).AssignableTo<IRegisterAsInstancePerLifetime>();
             builder.RegisterAssemblyTypes(assemblyCore).Where(a => a.Name.EndsWith("Repository"));
 
-            var assemblyTest = Assembly.Load("GwoDb.Tests");
-            builder.RegisterAssemblyTypes(assemblyTest).Where(a => a.Name.StartsWith("Arrange"));
+            if(_withTestProject)
+            {
+                var assemblyTest = Assembly.Load("GwoDb.Tests");
+                builder.RegisterAssemblyTypes(assemblyTest).Where(a => a.Name.StartsWith("Arrange"));                
+            }
+
 
             builder.RegisterInstance(SessionFactory.CreateSessionFactory().OpenSession());
         }

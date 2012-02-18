@@ -9,6 +9,13 @@ using GwoDb;
 
 public class SupporterController : Controller
 {
+    private readonly OrganisationRepository _orgaRepository;
+
+    public SupporterController(OrganisationRepository orgaRepository)
+    {
+        _orgaRepository = orgaRepository;
+    }
+
     public ActionResult Company()
     {
         return View();
@@ -18,6 +25,7 @@ public class SupporterController : Controller
     public ActionResult Company(SupporterCompanyModel model)
     {
         var organistaion = SupporterCompanyModel2Entity.Run(model);
+        _orgaRepository.Create(organistaion);
 
         return View(model);
     }

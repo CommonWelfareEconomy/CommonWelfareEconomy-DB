@@ -22,7 +22,7 @@ namespace GwoDb.Tests
         private static void InitializeContainer()
         {
             var builder = new ContainerBuilder();
-            builder.RegisterModule<AutofacCoreModule>();
+            builder.RegisterModule(new AutofacCoreModule(withTestProject:true));
             _container = builder.Build();
             SessionFactory.BuildSchema();
         }
