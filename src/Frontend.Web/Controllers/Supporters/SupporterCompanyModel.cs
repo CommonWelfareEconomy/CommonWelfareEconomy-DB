@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using DataAnnotationsExtensions;
 using GwoDb;
 
 public class SupporterCompanyModel
@@ -19,6 +20,7 @@ public class SupporterCompanyModel
 
     [Required]
     [Display(Name = "Webseite")]
+    [Url(requireProtocol:false)]
     public string Url { get; set; }
 
     [Display(Name = "Ort")]
@@ -29,11 +31,12 @@ public class SupporterCompanyModel
 
     [Required]
     [Display(Name = "E-Mail")]
+    [Email]
     public string Email { get; set; }
 
     [Required]
-    [Display(Name = "Bilanz")]
-    public string WelfareBalanceFor2012 { get; set; }
+    [Display(Name = "Bilanz für 2012")]
+    public bool WelfareBalanceFor2012 { get; set; }
 
     [Required]
     [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]

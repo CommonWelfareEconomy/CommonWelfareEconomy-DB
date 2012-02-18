@@ -18,16 +18,23 @@ public class SupporterController : Controller
 
     public ActionResult Company()
     {
-        return View();
+        return View(new SupporterCompanyModel());
     }
 
     [HttpPost]
     public ActionResult Company(SupporterCompanyModel model)
     {
+        if (!ModelState.IsValid)
+        {
+            model.Message = new Message(MessageType.IsError, "Bitte überprüfen Sie Ihre Eingaben.");
+            return View(model);
+        }
+            
+
         var organistaion = SupporterCompanyModel2Entity.Run(model);
         _orgaRepository.Create(organistaion);
 
-        return View(model);
+        return View("CompanySuccess", model);
     }
 
 }

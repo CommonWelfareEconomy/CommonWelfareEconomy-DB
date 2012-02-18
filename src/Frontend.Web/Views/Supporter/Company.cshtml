@@ -1,4 +1,5 @@
-﻿@model SupporterCompanyModel
+﻿@using GwoDb
+@model SupporterCompanyModel
 @{
     ViewBag.Title = "Company";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -9,8 +10,7 @@
     
 .form-horizontal .control-group {
     margin-bottom: 10px;
-}
-    
+}    
 </style>
 
 
@@ -27,6 +27,8 @@
         <div class="form-horizontal">
 
             <legend>Jetzt als Unterstützer eintragen</legend>
+            
+            @Html.Message(Model.Message)
             
             <div class="control-group">
                 @Html.LabelFor(m => m.CompanyName)
@@ -87,6 +89,15 @@
                         <span class="add-on">http://</span>
                         @Html.TextBoxFor(m => m.Url, new { @style = "width:245px;"})
                     </div>
+                </div>
+            </div>
+            
+            <div class="control-group">
+                @Html.LabelFor(m => m.WelfareBalanceFor2012)
+                
+                <div class="controls">
+                    @Html.CheckBoxFor( m => m.WelfareBalanceFor2012)
+                    <p class="help-block">Für das Unternehmen soll eine Bilanz für das Jahr 2012 erstellt werden.</p>
                 </div>
             </div>
             
