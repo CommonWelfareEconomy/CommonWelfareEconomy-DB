@@ -85,6 +85,7 @@
     <Compile Include="Controllers\Account\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Search\SearchController.cs" />
+    <Compile Include="Controllers\Search\SearchModel.cs" />
     <Compile Include="Controllers\Supporters\SupporterCompanyModel2Entity.cs" />
     <Compile Include="Controllers\Supporters\SupporterController.cs" />
     <Compile Include="Global.asax.cs">

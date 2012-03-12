@@ -80,12 +80,13 @@
     <Compile Include="Arrange\Arrange_newsletter.cs" />
     <Compile Include="Arrange\Arrange_persons.cs" />
     <Compile Include="BaseTest.cs" />
-    <Compile Include="Organisation\Organisation_model_mapping.cs" />
-    <Compile Include="Organisation\Organisation_persistence_tests.cs" />
+    <Compile Include="Domain\Organisation\Organisation_model_mapping.cs" />
+    <Compile Include="Domain\Organisation\Organisation_persistence_tests.cs" />
     <Compile Include="Arrange\Arrange_organisations.cs" />
-    <Compile Include="Integration.Persistence\Newsletter_persistence_tests.cs" />
-    <Compile Include="Integration.Persistence\Person_persistence_tests.cs" />
+    <Compile Include="Domain\Newsletter\Newsletter_persistence_tests.cs" />
+    <Compile Include="Domain\Person\Person_persistence_tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\Importer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -102,6 +103,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Domain\Search\" />
+    <Folder Include="Integration.Persistence\" />
     <Folder Include="Persistence\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

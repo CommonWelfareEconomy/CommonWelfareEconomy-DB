@@ -79,6 +79,9 @@
     <Compile Include="Domain\Person\Persistence\PersonMap.cs" />
     <Compile Include="Domain\Person\Persistence\PersonRepository.cs" />
     <Compile Include="Domain\Person\Person.cs" />
+    <Compile Include="Domain\Search\Search.cs" />
+    <Compile Include="Domain\Search\SearchResult.cs" />
+    <Compile Include="Domain\Search\SearchResultItem.cs" />
     <Compile Include="Infrastructure\IoC\AutofacCoreModule.cs" />
     <Compile Include="Infrastructure\IoC\IRegisterAsInstancePerLifetime.cs" />
     <Compile Include="Infrastructure\Persistence\Constants.cs" />
@@ -87,6 +90,12 @@
     <Compile Include="Infrastructure\Persistence\SpecFilterBase.cs" />
     <Compile Include="Infrastructure\Persistence\SpecOrderByBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\Importer.cs" />
+    <Compile Include="Tools\ImporterAggregatedRows.cs" />
+    <Compile Include="Tools\Model\EntryType.cs" />
+    <Compile Include="Tools\Model\ImporterResultRowsAggregated.cs" />
+    <Compile Include="Tools\Model\ImporterResultRow.cs" />
+    <Compile Include="Tools\ImporterOrganisations.cs" />
     <Compile Include="Web\Message\Message.cs" />
     <Compile Include="Web\Message\MessageHtml.cs" />
     <Compile Include="Web\Message\MessageType.cs" />
@@ -94,6 +103,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
