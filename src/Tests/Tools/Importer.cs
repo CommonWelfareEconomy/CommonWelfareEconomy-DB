@@ -21,6 +21,9 @@ namespace GwoDb.Tests
             Console.WriteLine(resultRowsAggregated.Count);
             Console.WriteLine(resultOrganisations.Count);
 
+            var csvExporter = new CsvExporter();
+            csvExporter.Run(resultOrganisations, "unternehmen.csv");
+
             foreach(var orga in resultOrganisations)
             {
                 Console.WriteLine(orga.Name  + " " + orga.Location);
