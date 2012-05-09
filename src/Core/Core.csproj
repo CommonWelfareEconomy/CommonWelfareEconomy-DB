@@ -31,13 +31,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Autofac, Version=2.5.2.830, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+    <Reference Include="Autofac, Version=2.6.1.841, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Autofac.2.5.2.830\lib\NET40\Autofac.dll</HintPath>
+      <HintPath>..\packages\Autofac.2.6.1.841\lib\NET40\Autofac.dll</HintPath>
     </Reference>
-    <Reference Include="Autofac.Configuration, Version=2.5.2.830, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+    <Reference Include="Autofac.Configuration, Version=2.6.1.841, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Autofac.2.5.2.830\lib\NET40\Autofac.Configuration.dll</HintPath>
+      <HintPath>..\packages\Autofac.2.6.1.841\lib\NET40\Autofac.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\packages\Autofac.Mvc3.2.6.1.841\lib\NET40\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper">
+      <HintPath>..\packages\CsvHelper.1.3\lib\net40-client\CsvHelper.dll</HintPath>
     </Reference>
     <Reference Include="FluentNHibernate, Version=1.3.0.717, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -69,6 +75,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Organisation\Ops\CsvExporter.cs" />
     <Compile Include="Domain\Organisation\Organisation.cs" />
     <Compile Include="Domain\Organisation\Persistence\OrganisationMap.cs" />
     <Compile Include="Domain\Organisation\Persistence\OrganisationRepository.cs" />
@@ -79,21 +86,44 @@
     <Compile Include="Domain\Person\Persistence\PersonMap.cs" />
     <Compile Include="Domain\Person\Persistence\PersonRepository.cs" />
     <Compile Include="Domain\Person\Person.cs" />
+    <Compile Include="Domain\Search\Search.cs" />
+    <Compile Include="Domain\Search\SearchResult.cs" />
+    <Compile Include="Domain\Search\SearchResultItem.cs" />
     <Compile Include="Infrastructure\IoC\AutofacCoreModule.cs" />
     <Compile Include="Infrastructure\IoC\IRegisterAsInstancePerLifetime.cs" />
+    <Compile Include="Infrastructure\IoC\ServiceLocator.cs" />
     <Compile Include="Infrastructure\Persistence\Constants.cs" />
-    <Compile Include="Infrastructure\Persistence\EnumConvention.cs" />
-    <Compile Include="Infrastructure\Persistence\SessionFactory.cs" />
-    <Compile Include="Infrastructure\Persistence\SpecFilterBase.cs" />
-    <Compile Include="Infrastructure\Persistence\SpecOrderByBase.cs" />
+    <Compile Include="Infrastructure\Persistence\ExecuteFile.cs" />
+    <Compile Include="Infrastructure\Persistence\Schema\DoesTableExist.cs" />
+    <Compile Include="Infrastructure\Persistence\Schema\DropTable.cs" />
+    <Compile Include="Infrastructure\Persistence\Session\EnumConvention.cs" />
+    <Compile Include="Infrastructure\Persistence\Session\SessionFactory.cs" />
+    <Compile Include="Infrastructure\Persistence\Spec\SpecFilterBase.cs" />
+    <Compile Include="Infrastructure\Persistence\Spec\SpecOrderByBase.cs" />
+    <Compile Include="Infrastructure\Settings\DbSetting\DbSettingLoader.cs" />
+    <Compile Include="Infrastructure\Settings\DbSetting\DbSettings.cs" />
+    <Compile Include="Infrastructure\Settings\DbSetting\DbSettingsMap.cs" />
+    <Compile Include="Infrastructure\Settings\WebConfigSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tools\Importer.cs" />
+    <Compile Include="Tools\Importer\Importer.cs" />
+    <Compile Include="Tools\Importer\ImporterAggregatedRows.cs" />
+    <Compile Include="Tools\Importer\Model\EntryType.cs" />
+    <Compile Include="Tools\Importer\Model\ImporterResultRowsAggregated.cs" />
+    <Compile Include="Tools\Importer\Model\ImporterResultRow.cs" />
+    <Compile Include="Tools\Importer\ImporterOrganisations.cs" />
+    <Compile Include="Tools\Updater\Steps\UpdateToVs1InitialStep.cs" />
+    <Compile Include="Tools\Updater\Updater.cs" />
+    <Compile Include="Tools\Updater\UpdateStepExecuter.cs" />
     <Compile Include="Web\Message\Message.cs" />
     <Compile Include="Web\Message\MessageHtml.cs" />
     <Compile Include="Web\Message\MessageType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Tools\Updater\Scripts\1-initial.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
