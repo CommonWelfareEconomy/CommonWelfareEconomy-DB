@@ -24,11 +24,8 @@ namespace Frontend.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                "Default", // Route name
-                "{controller}/{action}/{id}", // URL with parameters
-                new { controller = "Search", action = "Search", id = UrlParameter.Optional } // Parameter defaults
-            );
+            routes.MapRoute("Default-Admin", "Admin/{action}", new { controller = "Admin", action = "Welcome", id = UrlParameter.Optional });
+            routes.MapRoute("Default", "{controller}/{action}/{id}",  new { controller = "Search", action = "Search", id = UrlParameter.Optional });
 
         }
 

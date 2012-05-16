@@ -56,12 +56,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\NHibernate.3.2.0.4000\lib\Net35\NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="Seedworks.Lib, Version=0.8.2.5396, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Seedworks.Lib, Version=0.8.2.41343, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Seedworks.Persistence.0.8.2.14\lib\Seedworks.Lib.dll</HintPath>
+      <HintPath>..\packages\Seedworks.Web.State.0.8.2.3\lib\Seedworks.Lib.dll</HintPath>
     </Reference>
     <Reference Include="Seedworks.Lib.Persistence, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Seedworks.Persistence.0.8.2.14\lib\Seedworks.Lib.Persistence.dll</HintPath>
+    </Reference>
+    <Reference Include="Seedworks.Web.Lib.Persistence">
+      <HintPath>..\packages\Seedworks.Web.State.0.8.2.3\lib\Seedworks.Web.Lib.Persistence.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -106,14 +109,17 @@
     <Compile Include="Infrastructure\Settings\WebConfigSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tools\Importer\Importer.cs" />
-    <Compile Include="Tools\Importer\ImporterAggregatedRows.cs" />
+    <Compile Include="Tools\Importer\ImporterResult.cs" />
+    <Compile Include="Tools\Importer\Process\1 GetOldDbAsResultRows.cs" />
+    <Compile Include="Tools\Importer\Process\2 GetOldDbAsAggregatedRows.cs" />
     <Compile Include="Tools\Importer\Model\EntryType.cs" />
     <Compile Include="Tools\Importer\Model\ImporterResultRowsAggregated.cs" />
     <Compile Include="Tools\Importer\Model\ImporterResultRow.cs" />
-    <Compile Include="Tools\Importer\ImporterOrganisations.cs" />
+    <Compile Include="Tools\Importer\Process\3 GetOldDbAsModel.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs1InitialStep.cs" />
     <Compile Include="Tools\Updater\Updater.cs" />
     <Compile Include="Tools\Updater\UpdateStepExecuter.cs" />
+    <Compile Include="Web\Context\SessionUser.cs" />
     <Compile Include="Web\Message\Message.cs" />
     <Compile Include="Web\Message\MessageHtml.cs" />
     <Compile Include="Web\Message\MessageType.cs" />
@@ -123,7 +129,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Tools\Updater\Scripts\1-initial.sql" />
+    <Content Include="Tools\Updater\Scripts\1-initial.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

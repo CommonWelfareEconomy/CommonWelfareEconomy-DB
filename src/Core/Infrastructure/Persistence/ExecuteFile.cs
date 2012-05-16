@@ -16,7 +16,7 @@ namespace GwoDb.Infrastructure.Persistence
         public void Run(string filePath)
         {
             if (HttpContext.Current != null)
-                filePath = HttpContext.Current.Server.MapPath("bin/" + filePath);
+                filePath = HttpContext.Current.Server.MapPath("/bin/" + filePath);
 
             _session.CreateSQLQuery(File.ReadAllText(filePath)).ExecuteUpdate();
         }

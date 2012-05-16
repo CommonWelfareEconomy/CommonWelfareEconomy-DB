@@ -6,19 +6,24 @@ using GwoDb.Infrastructure;
 
 namespace GwoDb.Tools.Import
 {
-    public class ImporterOrganisations : IRegisterAsInstancePerLifetime
+    public class GetOldDbAsModelResult
     {
-        private readonly ImporterAggregatedRows _importerAggregatedRows;
+        public List<Organisation> Organisations;
+    }
 
-        public ImporterOrganisations(ImporterAggregatedRows importerAggregatedRows)
+    public class GetOldDbAsModel : IRegisterAsInstancePerLifetime
+    {
+        private readonly GetOldDbAsAggregatedRows _getOldDbAsAggregatedRows;
+
+        public GetOldDbAsModel(GetOldDbAsAggregatedRows getOldDbAsAggregatedRows)
         {
-            _importerAggregatedRows = importerAggregatedRows;
+            _getOldDbAsAggregatedRows = getOldDbAsAggregatedRows;
         }
 
-        public List<Organisation> Run()
+        public GetOldDbAsModelResult Run()
         {
-            var result = new List<Organisation>();
-            var aggregatedRows = _importerAggregatedRows.Run();
+            var organisations = new List<Organisation>();
+            var aggregatedRows = _getOldDbAsAggregatedRows.Run();
             foreach(var aggregatedRow in aggregatedRows)
             {
                 if (!aggregatedRow.IsCompany())
@@ -34,10 +39,10 @@ namespace GwoDb.Tools.Import
                 organisation.WelfareBalanceFor2012 = aggregatedRow.IsBilanz2012();
                 organisation.Email = aggregatedRow.GetEmail();
 
-                result.Add(organisation);
+                organisations.Add(organisation);
             }
 
-            return result;
+            return new GetOldDbAsModelResult{Organisations = organisations};
         }
 
     }

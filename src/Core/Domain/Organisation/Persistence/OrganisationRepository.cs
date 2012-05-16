@@ -10,6 +10,7 @@ namespace GwoDb
     public class OrganisationRepository : RepositoryDb<Organisation>
     {
         public OrganisationRepository(ISession session) : base(session){}
+        public ISession Session { get { return _session; } }
 
         public void Create(List<Organisation> organisationsToCreate)
         {

@@ -6,18 +6,18 @@ using GwoDb.Infrastructure;
 
 namespace GwoDb.Tools.Import
 {
-    public class ImporterAggregatedRows : IRegisterAsInstancePerLifetime
+    public class GetOldDbAsAggregatedRows : IRegisterAsInstancePerLifetime
     {
-        private readonly Importer _importer;
+        private readonly GetOldDbAsResultRows _getOldDbAsResultRows;
 
-        public ImporterAggregatedRows(Importer importer)
+        public GetOldDbAsAggregatedRows(GetOldDbAsResultRows getOldDbAsResultRows)
         {
-            _importer = importer;
+            _getOldDbAsResultRows = getOldDbAsResultRows;
         }
 
         public List<ImporterResultRowsAggregated> Run()
         {
-            return Run(_importer.Run());
+            return Run(_getOldDbAsResultRows.Run());
         }
 
         private List<ImporterResultRowsAggregated> Run(IEnumerable<ImporterResultRow> rows)

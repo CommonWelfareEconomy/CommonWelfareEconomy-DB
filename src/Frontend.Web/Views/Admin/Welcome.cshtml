@@ -1,0 +1,20 @@
+﻿@using Frontend.Web.Models
+@using GwoDb
+@model Frontend.Web.Controllers.Admin.AdminWelcomeModel
+@{
+    ViewBag.Title = "Admin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="span6">
+    <h2>Willkommen im Adminbereich</h2>
+    
+    <br/>
+    <h3>Datenbank neu erstellen</h3>
+    <p>Alle bisherigen Änderungen gehen verloren.</p>
+    
+    @Html.Message(Model.Message)
+    <a class="btn" href="@Url.Action("Import","Admin")">Datenbank Erstellung starten</a>
+
+</div>
+
