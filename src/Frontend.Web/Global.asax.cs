@@ -7,6 +7,7 @@ using System.Web.Routing;
 using Autofac;
 using Autofac.Integration.Mvc;
 using GwoDb.Infrastructure;
+using HibernatingRhinos.Profiler.Appender.NHibernate;
 
 namespace Frontend.Web
 {
@@ -26,22 +27,29 @@ namespace Frontend.Web
 
             routes.MapRoute("Default-Admin", "Admin/{action}", new { controller = "Admin", action = "Welcome", id = UrlParameter.Optional });
             routes.MapRoute("Default", "{controller}/{action}/{id}",  new { controller = "Search", action = "Search", id= UrlParameter.Optional });
-            routes.MapRoute("Search", "Search", new { controller = "Search", action = "Search"});
-
         }
 
         protected void Application_Start()
         {
-            var builder = new ContainerBuilder();
-            builder.RegisterControllers(typeof(MvcApplication).Assembly);
-            builder.RegisterModule(new AutofacCoreModule());
-            var container = builder.Build();
-            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+            InitializeAutofac();
 
             AreaRegistration.RegisterAllAreas();
 
+            #if DEBUG
+                NHibernateProfiler.Initialize();
+            #endif
+
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
+        }
+
+        private static void InitializeAutofac()
+        {
+            var builder = new ContainerBuilder();
+            builder.RegisterControllers(typeof (MvcApplication).Assembly);
+            builder.RegisterModule(new AutofacCoreModule());
+            var container = builder.Build();
+            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
         }
     }
 }

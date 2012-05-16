@@ -4,6 +4,8 @@ using GwoDb;
 
 public class SearchModel
 {
+    public SearchModel(){}
+
     public SearchModel(IEnumerable<Organisation> organisations, PagerModel pagerModel)
     {
 

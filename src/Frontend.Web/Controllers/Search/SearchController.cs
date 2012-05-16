@@ -16,7 +16,7 @@ namespace Frontend.Web.Controllers
             _organisationRepo = organisationRepo;
         }
 
-        public ActionResult Search()
+        public ActionResult Search(SearchModel searchModel, int? page)
         {
             var searchSpec = new OrganisationSearchSpec {PageSize = 20};
 

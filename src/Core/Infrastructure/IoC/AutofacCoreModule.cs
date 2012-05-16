@@ -31,7 +31,6 @@ namespace GwoDb.Infrastructure
                 builder.RegisterAssemblyTypes(assemblyTest).Where(a => a.Name.StartsWith("Arrange"));                
             }
 
-
             builder.RegisterInstance(SessionFactory.CreateSessionFactory().OpenSession());
         }
     }
