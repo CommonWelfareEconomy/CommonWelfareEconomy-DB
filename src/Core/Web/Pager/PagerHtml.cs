@@ -4,23 +4,23 @@ using System.Web.Mvc;
 
 namespace GwoDb
 {
-    public static class MessageHtml
+    public static class PagerHtml
     {
-        public static MvcHtmlString Message(this HtmlHelper html, Message message)
+        public static MvcHtmlString Pager(this HtmlHelper html, PagerModel pager)
         {
-            if (message == null)
+            if (pager == null)
                 return new MvcHtmlString("");
 
-            var newViewContext = 
-                new ViewContext(html.ViewContext, 
-                html.ViewContext.View, 
-                new ViewDataDictionary(message), 
-                html.ViewContext.TempData, 
+            var newViewContext =
+                new ViewContext(html.ViewContext,
+                html.ViewContext.View,
+                new ViewDataDictionary(pager),
+                html.ViewContext.TempData,
                 html.ViewContext.Writer);
 
 
             ViewEngineResult result = ViewEngines.Engines.FindPartialView(
-                html.ViewContext, "~/Views/Shared/_UserMessage.cshtml");
+                html.ViewContext, "~/Views/Shared/_Pager.cshtml");
 
             var stringBuilder = new StringBuilder();
             var stringWriter = new StringWriter(stringBuilder);
@@ -29,7 +29,6 @@ namespace GwoDb
 
 
             return new MvcHtmlString(stringBuilder.ToString());
-
         }
     }
 }

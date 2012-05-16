@@ -123,6 +123,8 @@
     <Compile Include="Web\Message\Message.cs" />
     <Compile Include="Web\Message\MessageHtml.cs" />
     <Compile Include="Web\Message\MessageType.cs" />
+    <Compile Include="Web\Pager\PagerHtml.cs" />
+    <Compile Include="Web\Pager\PagerModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

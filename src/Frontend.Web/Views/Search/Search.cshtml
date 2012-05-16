@@ -1,7 +1,15 @@
-﻿@{
+﻿@using GwoDb
+@{
     ViewBag.Title = "Suche";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model SearchModel
+           
+<style>
+    
+    .item:hover{ background-color: lightyellow;}
+    
+</style>
 
 <div class="span6">
 
@@ -9,6 +17,15 @@
         <input type="text" class="input-xlarge" id="input01">
         <button type="submit" class="btn btn-primary">Suche</button>
     </div>                    
+    
+    @Html.Pager(Model.Pager)
+    
+    @foreach (var item in Model.Organisations){
+        
+        <div class="item" style="padding:6px;">@item.Name</div>
+    }
+    
+    @Html.Pager(Model.Pager)
 
 </div>
 

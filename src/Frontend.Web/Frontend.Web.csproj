@@ -186,6 +186,7 @@
     <Content Include="Scripts\modernizr-1.7.js" />
     <Content Include="Scripts\modernizr-1.7.min.js" />
     <Content Include="Views\Admin\Welcome.cshtml" />
+    <Content Include="Views\Shared\_Pager.cshtml" />
     <None Include="Web.config" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
