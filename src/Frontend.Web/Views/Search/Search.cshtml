@@ -13,19 +13,23 @@
 
 <div class="span6">
 
+@using (Html.BeginForm()) {
+    
+
     <div class="form-search well">
-        <input type="text" class="input-xlarge" id="input01">
-        <button type="submit" class="btn btn-primary">Suche</button>
+        @Html.TextBoxFor(m => m.SearchTerm, new{@class="input-xlarge"})
+        <input type="submit" class="btn btn-primary"/>
     </div>                    
     
     @Html.Pager(Model.Pager)
     
-    @foreach (var item in Model.Organisations){
-        
+    foreach (var item in Model.Organisations)
+    {
         <div class="item" style="padding:6px;">@item.Name</div>
     }
     
     @Html.Pager(Model.Pager)
 
+}
 </div>
 

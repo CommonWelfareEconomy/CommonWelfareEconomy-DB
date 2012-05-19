@@ -6,25 +6,24 @@ public class SearchModel
 {
     public SearchModel(){}
 
-    public SearchModel(IEnumerable<Organisation> organisations, PagerModel pagerModel)
-    {
-
-        Organisations = organisations.Select(org => 
-                            new SearchModelOrganisationDetail
-                                {
-                                    Name = org.Name
-                                }).ToList();
-
-        Pager = pagerModel;
-    }
-
     public Message Message;
     public PagerModel Pager { get; set; }
 
-    public string SearchTerm;
-    public int ResultCount;
+    public string SearchTerm { get; set; }
+    public int ResultCount { get; set; }
 
     public List<SearchModelOrganisationDetail> Organisations;
+
+    public void Init(IEnumerable<Organisation> orgas, PagerModel pagerModel)
+    {
+        Organisations = orgas.Select(org =>
+                            new SearchModelOrganisationDetail
+                            {
+                                Name = org.Name
+                            }).ToList();
+
+        Pager = pagerModel;
+    }
 }
 
 public class SearchModelOrganisationDetail

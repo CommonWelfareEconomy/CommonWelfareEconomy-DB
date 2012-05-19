@@ -25,7 +25,8 @@ namespace Frontend.Web.Controllers
 
             var orgas = _organisationRepo.GetBy(searchSpec);
 
-            return View(new SearchModel(orgas,new PagerModel(searchSpec)));
+            searchModel.Init(orgas, new PagerModel(searchSpec));
+            return View(searchModel);
         }
 
 
