@@ -108,6 +108,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Search\SearchController.cs" />
     <Compile Include="Controllers\Search\SearchModel.cs" />
+    <Compile Include="Controllers\Search\SearchModelOrganisationDetail.cs" />
     <Compile Include="Controllers\Supporters\SupporterCompanyModel2Entity.cs" />
     <Compile Include="Controllers\Supporters\SupporterController.cs" />
     <Compile Include="Global.asax.cs">
@@ -126,6 +127,8 @@
     <Content Include="Assets\img\glyphicons-halflings.png" />
     <Content Include="Assets\js\bootstrap.js" />
     <Content Include="Assets\js\bootstrap.min.js" />
+    <Content Include="Content\gwb-blue.png" />
+    <Content Include="Content\gwb-red.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />

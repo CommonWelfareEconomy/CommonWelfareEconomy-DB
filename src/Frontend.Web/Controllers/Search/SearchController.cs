@@ -20,19 +20,35 @@ namespace Frontend.Web.Controllers
             _sessionSearch = sessionSearch;
         }
 
+        [HttpGet]
         public ActionResult Search(SearchModel searchModel, int? page)
         {
-            _sessionSearch.OrgaSearchSpec = new OrganisationSearchSpec { PageSize = 20 };
+            _sessionSearch.OrgaSearchSpec.PageSize = 20;
 
             if (Request["page"] != null)
                 _sessionSearch.OrgaSearchSpec.CurrentPage = Convert.ToInt32(Request["page"]);
 
-            if (searchModel.SearchTerm != null)
+            return GetView(searchModel);
+        }
+
+        [HttpPost]
+        public ActionResult Search(SearchModel searchModel)
+        {
+            _sessionSearch.OrgaSearchSpec.CurrentPage = 1;
+
+            if (searchModel.SearchTerm == null)
+                _sessionSearch.OrgaSearchSpec.Filter.Name.Like("");
+            else
                 _sessionSearch.OrgaSearchSpec.Filter.Name.Like(searchModel.SearchTerm);
 
+            return GetView(searchModel);
+        }
+
+        private ActionResult GetView(SearchModel searchModel)
+        {
             var orgas = _organisationRepo.GetBy(_sessionSearch.OrgaSearchSpec);
 
-            searchModel.Init(orgas, new PagerModel(_sessionSearch.OrgaSearchSpec));
+            searchModel.Init(orgas, _sessionSearch.OrgaSearchSpec);
             return View(searchModel);
         }
 
