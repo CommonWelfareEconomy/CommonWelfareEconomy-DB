@@ -4,8 +4,6 @@ using GwoDb;
 
 public class SearchModel
 {
-    public SearchModel(){}
-
     public Message Message;
     public PagerModel Pager { get; set; }
 
@@ -13,6 +11,11 @@ public class SearchModel
     public int ResultCount { get; set; }
 
     public List<SearchModelOrganisationDetail> Organisations;
+
+    public SearchModel()
+    {
+        SearchTerm = "";
+    }
 
     public void Init(IEnumerable<Organisation> orgas, PagerModel pagerModel)
     {

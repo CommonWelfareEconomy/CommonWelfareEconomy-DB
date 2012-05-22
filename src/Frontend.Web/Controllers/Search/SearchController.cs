@@ -4,28 +4,35 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using GwoDb;
+using GwoDb.Web.Context;
 
 namespace Frontend.Web.Controllers
 {
     public class SearchController : Controller
     {
         private readonly OrganisationRepository _organisationRepo;
+        private readonly SessionSearch _sessionSearch;
 
-        public SearchController(OrganisationRepository organisationRepo)
+        public SearchController(OrganisationRepository organisationRepo, 
+                                SessionSearch sessionSearch)
         {
             _organisationRepo = organisationRepo;
+            _sessionSearch = sessionSearch;
         }
 
         public ActionResult Search(SearchModel searchModel, int? page)
         {
-            var searchSpec = new OrganisationSearchSpec {PageSize = 20};
+            _sessionSearch.OrgaSearchSpec = new OrganisationSearchSpec { PageSize = 20 };
 
             if (Request["page"] != null)
-                searchSpec.CurrentPage = Convert.ToInt32(Request["page"]);
+                _sessionSearch.OrgaSearchSpec.CurrentPage = Convert.ToInt32(Request["page"]);
 
-            var orgas = _organisationRepo.GetBy(searchSpec);
+            if (searchModel.SearchTerm != null)
+                _sessionSearch.OrgaSearchSpec.Filter.Name.Like(searchModel.SearchTerm);
 
-            searchModel.Init(orgas, new PagerModel(searchSpec));
+            var orgas = _organisationRepo.GetBy(_sessionSearch.OrgaSearchSpec);
+
+            searchModel.Init(orgas, new PagerModel(_sessionSearch.OrgaSearchSpec));
             return View(searchModel);
         }
 

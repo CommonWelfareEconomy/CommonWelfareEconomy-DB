@@ -13,11 +13,11 @@ namespace GwoDb
 
     public class UserFilter : ConditionContainer
     {
-        public readonly ConditionString UserName;
+        public readonly ConditionString Name;
 
         public UserFilter()
         {
-            UserName = new ConditionString(this, "Name");
+            Name = new ConditionString(this, "Name");
         }
     }
 

@@ -15,13 +15,12 @@
 
 @using (Html.BeginForm()) {
     
-
     <div class="form-search well">
         @Html.TextBoxFor(m => m.SearchTerm, new{@class="input-xlarge"})
         <input type="submit" class="btn btn-primary"/>
     </div>                    
     
-    @Html.Pager(Model.Pager)
+    <div style="padding-top: 1px;">@Html.Pager(Model.Pager)</div>
     
     foreach (var item in Model.Organisations)
     {

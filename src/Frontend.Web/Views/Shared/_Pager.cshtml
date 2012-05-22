@@ -1,8 +1,8 @@
 ﻿@using System.Globalization
 @model GwoDb.PagerModel 
 
-<div class="row" style="margin-top:-20px;">
-    <div class="pagination" style="text-align:center;" >
+<div style="margin-top:-20px;">
+    <div class="pagination" >
         <ul>
             @if (Model.HasPreviousPage) { 
                 <li>
@@ -47,15 +47,19 @@
             @if (Model.SkippedRight) { 
                 <li class="disabled"><a href="#">...</a></li>
             }
-
-            <li @if (Model.LastPage == Model.CurrentPage){
-                @:class="active" 
-                }>
-                @Html.ActionLink(Model.LastPage.ToString(CultureInfo.InvariantCulture),
-                    ViewContext.RouteData.Values["action"].ToString(), 
-                    ViewContext.RouteData.Values["controller"].ToString(), 
-                    new { page = Model.LastPage }, null)
-            </li>
+            
+            @if (Model.LastPage != 1)
+            {
+                <li @if (Model.LastPage == Model.CurrentPage)
+                    {
+                        @:class="active" 
+                    }>
+                    @Html.ActionLink(Model.LastPage.ToString(CultureInfo.InvariantCulture),
+                                       ViewContext.RouteData.Values["action"].ToString(),
+                                       ViewContext.RouteData.Values["controller"].ToString(),
+                                       new {page = Model.LastPage}, null)
+                </li>
+            }
 
             @if (Model.HasNextPage) { 
                 <li>

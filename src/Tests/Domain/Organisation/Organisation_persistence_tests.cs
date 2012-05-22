@@ -49,7 +49,7 @@ namespace GwoDb.Tests.Integration
                 Persist();
 
             var searchSpec = new OrganisationSearchSpec();
-            searchSpec.Filter.UserName.Like("Firma");
+            searchSpec.Filter.Name.Like("Firma");
 
             var organisationRepo = Resolve<OrganisationRepository>();
             var organisations = organisationRepo.GetBy(searchSpec);
