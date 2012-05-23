@@ -1,7 +1,19 @@
-﻿@if(Request.IsAuthenticated) {
-    <text>Welcome <strong>@User.Identity.Name</strong>!
-    [ @Html.ActionLink("Abmelden", "LogOff", "Account") ]</text>
+﻿@using GwoDb;
+@using GwoDb.Web.Context
+
+@{
+    var sessionUser = ServiceLocator.Resolve<SessionUser>();    
 }
-else {
+
+@if (sessionUser.IsLoggedIn)
+{
+    if (sessionUser.IsAdmin){
+        @:[ @Html.ActionLink("Admin", "Welcome", "Admin") ]     
+    }
+    
+    @:[ @Html.ActionLink("Abmelden", "LogOff", "Account") ]
+}
+else
+{
     @:[ @Html.ActionLink("Anmelden", "LogOn", "Account") ]
 }

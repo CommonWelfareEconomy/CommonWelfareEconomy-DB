@@ -37,8 +37,8 @@ namespace Frontend.Web.Controllers
         
         public ActionResult LogOff()
         {
-            FormsAuthentication.SignOut();
-            return RedirectToAction("Index", "Home");
+            _sessionUser.Logout();
+            return RedirectToAction("Search", "Search");
         }
 
     }

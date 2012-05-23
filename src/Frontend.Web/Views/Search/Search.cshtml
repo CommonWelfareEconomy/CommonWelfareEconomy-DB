@@ -1,8 +1,11 @@
 ﻿@using GwoDb
+@using GwoDb.Web.Context
 @{
     ViewBag.Title = "Suche";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var sessionUser = ServiceLocator.Resolve<SessionUser>();    
 }
+    
 @model SearchModel
            
 <style>
@@ -28,16 +31,32 @@
     
         foreach (var item in Model.Organisations)
         {
-            <div class="item" style="padding:6px; width: 700px;">
-                @if(item.Balance2011){
-                    <img src="/Content/gwb-blue.png" style="float: left; padding-right: 7px;"/>
-                }
-                @if(item.Balance2012){
-                    <img src="/Content/gwb-red.png" style="float: left; padding-right: 7px;"/>
-                }
-                <span style="font-size: 17px;">@item.Name</span><br/>
-                @item.Location <a href="@item.Url">@item.Url</a><br/>
-                <i>Branche:</i> @item.Industry  &nbsp; <i>Mitarbeiter:</i> @item.Size
+            <div class="item" style="padding:6px; width: 700px; ">
+                
+                <div style="width: 100px; height: 50px; float: right; ">
+                    @if (sessionUser.IsAdmin)
+                    {
+                        <a href="#">[edit]</a>
+                        <a href="#">[x]</a>   
+                    }
+                </div>
+
+                <div style="width: 550px; ">
+                    @if (item.Balance2011)
+                    {
+                        <img src="/Content/gwb-blue.png" style="float: left; padding-right: 7px;"/>
+                    }
+                    @if (item.Balance2012)
+                    {
+                        <img src="/Content/gwb-red.png" style="float: left; padding-right: 7px;"/>
+                    }
+                    <span style="font-size: 17px;">@item.Name</span><br/>
+                    @item.Location <a href="@item.Url">@item.Url</a><br/>
+                    <i>Branche:</i> @item.Industry  &nbsp; <i>Mitarbeiter:</i> @item.Size
+                </div>
+                
+
+
             </div>
         }
     

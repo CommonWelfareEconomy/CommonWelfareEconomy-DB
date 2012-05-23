@@ -22,5 +22,11 @@ namespace GwoDb.Web.Context
             get { return Data.Get<bool>("isLoggedIn", false); }
             set { Data["isLoggedIn"] = value; }
         }
+
+        public void Logout()
+        {
+            IsLoggedIn = false;
+            IsAdmin = false;
+        }
     }
 }
