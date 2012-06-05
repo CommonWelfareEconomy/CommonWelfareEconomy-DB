@@ -32,7 +32,8 @@ public class SearchModel
                             }).ToList();
 
         Pager = new PagerModel(searchSpec);
-        SearchTerm = searchSpec.Filter.Name.Value;
+        if (searchSpec.Filter.TextSearch.Items.Any())
+            SearchTerm = searchSpec.Filter.TextSearch.Items.Aggregate((current, next) => current + " " + next);
         ResultCount = searchSpec.TotalItems;
     }
 }

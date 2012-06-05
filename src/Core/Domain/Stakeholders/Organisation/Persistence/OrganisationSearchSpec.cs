@@ -12,10 +12,13 @@ namespace GwoDb
     public class OrganisationFilter : ConditionContainer
     {
         public readonly ConditionString Name;
+        public ConditionTextSearch TextSearch { get; private set; }
 
         public OrganisationFilter()
         {
             Name = new ConditionString(this, "Name");
+            TextSearch = new ConditionTextSearch(this,
+                "Name", "Industry", "Location", "ZipCode");
         }
     }
 

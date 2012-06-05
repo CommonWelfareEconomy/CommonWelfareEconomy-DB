@@ -36,11 +36,10 @@ namespace Frontend.Web.Controllers
         {
             _sessionSearch.OrgaSearchSpec.CurrentPage = 1;
 
-            if (searchModel.SearchTerm == null)
-                _sessionSearch.OrgaSearchSpec.Filter.Name.Like("");
-            else
-                _sessionSearch.OrgaSearchSpec.Filter.Name.Like(searchModel.SearchTerm);
-
+            _sessionSearch.OrgaSearchSpec.Filter.TextSearch.Clear();
+            if (searchModel.SearchTerm != null)
+                _sessionSearch.OrgaSearchSpec.Filter.TextSearch.AddTerms(searchModel.SearchTerm);
+            
             return GetView(searchModel);
         }
 
