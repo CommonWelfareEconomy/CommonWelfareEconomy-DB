@@ -15,6 +15,16 @@
         });
 
     </script>
+    
+    @functions{
+        string GetActiveClassLi(string pageName){
+            return Request.RawUrl.Contains(pageName) ? "active" : "";
+        }
+
+        string WhiteHeart(string pageName){
+            return Request.RawUrl.Contains(pageName) ? "icon-white" : "";
+        }        
+    } 
 </head>
     <body>
 
@@ -39,12 +49,11 @@
                 <div class="span3">
                     <div class="row">
                         <div class="well" style="padding: 22px 0;">
-                            <ul class="nav nav-list">
-                                
-                                <li class="active"><a href="/SearchCompany"><i class="icon-heart icon-white"></i> Unternehmen (1740)</a></li>
-                                <li><a href="/SearchClub"><i class="icon-heart"></i> Organisationen/Vereine (20)</a></li>
-                                <li><a href="/SearchPerson"><i class="icon-user"></i> Privatpersonen (400)</a></li>
-                                <li><a href="/SearchPolitician"><i class="icon-user"></i> Politikerinnen (80)</a></li>
+                            <ul class="nav nav-list">  
+                                <li class="@GetActiveClassLi("SearchCompany")"><a href="/SearchCompany"><i class="icon-heart @WhiteHeart("SearchCompany")"></i> Unternehmen (1740)</a></li>
+                                <li class="@GetActiveClassLi("SearchClub")"><a href="/SearchClub"><i class="icon-heart @WhiteHeart("SearchClub")"></i> Organisationen/Vereine (20)</a></li>
+                                <li class="@GetActiveClassLi("SearchPerson")"><a href="/SearchPerson"><i class="icon-user @WhiteHeart("SearchPerson")"></i> Privatpersonen (400)</a></li>
+                                <li class="@GetActiveClassLi("SearchPolitician")"><a href="/SearchPolitician"><i class="icon-user @WhiteHeart("SearchPolitician")"></i> Politikerinnen (80)</a></li>
                             </ul>
                         </div>
                         
