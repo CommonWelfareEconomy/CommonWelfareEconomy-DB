@@ -80,9 +80,9 @@
     <Compile Include="Arrange\Arrange_newsletter.cs" />
     <Compile Include="Arrange\Arrange_persons.cs" />
     <Compile Include="BaseTest.cs" />
-    <Compile Include="Domain\Organisation\Organisation_model_mapping.cs" />
-    <Compile Include="Domain\Organisation\Organisation_persistence_tests.cs" />
-    <Compile Include="Arrange\Arrange_organisations.cs" />
+    <Compile Include="Domain\Company\Company_model_mapping.cs" />
+    <Compile Include="Domain\Company\Company_persistence_tests.cs" />
+    <Compile Include="Arrange\Arrange_companies.cs" />
     <Compile Include="Domain\Newsletter\Newsletter_persistence_tests.cs" />
     <Compile Include="Domain\Person\Person_persistence_tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

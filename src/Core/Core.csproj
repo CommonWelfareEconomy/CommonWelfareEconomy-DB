@@ -94,10 +94,10 @@
     <Compile Include="Domain\Stakeholders\Club\Persistence\ClubMap.cs" />
     <Compile Include="Domain\Stakeholders\Club\Persistence\ClubRepository.cs" />
     <Compile Include="Domain\Stakeholders\Club\Persistence\ClubSearchSpec.cs" />
-    <Compile Include="Domain\Stakeholders\Organisation\Ops\CsvExporter.cs" />
-    <Compile Include="Domain\Stakeholders\Organisation\Company.cs" />
-    <Compile Include="Domain\Stakeholders\Organisation\Persistence\CompanyRepository.cs" />
-    <Compile Include="Domain\Stakeholders\Organisation\Persistence\CompanySearchSpec.cs" />
+    <Compile Include="Domain\Stakeholders\Company\Ops\CsvExporter.cs" />
+    <Compile Include="Domain\Stakeholders\Company\Company.cs" />
+    <Compile Include="Domain\Stakeholders\Company\Persistence\CompanyRepository.cs" />
+    <Compile Include="Domain\Stakeholders\Company\Persistence\CompanySearchSpec.cs" />
     <Compile Include="Domain\Newsletter\Persistence\NewsletterMap.cs" />
     <Compile Include="Domain\Newsletter\Persistence\NewsletterRepository.cs" />
     <Compile Include="Domain\Newsletter\Newsletter.cs" />

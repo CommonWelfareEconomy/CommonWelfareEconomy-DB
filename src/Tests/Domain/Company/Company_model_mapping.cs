@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace GwoDb.Tests
 {
-    public class Organisation_model_mapping : BaseTest
+    public class Company_model_mapping : BaseTest
     {
         [Test]
         public void Mapping_should_be_valid()

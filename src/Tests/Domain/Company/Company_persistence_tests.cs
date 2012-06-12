@@ -6,10 +6,10 @@ using NUnit.Framework;
 
 namespace GwoDb.Tests.Integration
 {
-    class Organisation_persistence_tests : BaseTest
+    class Company_persistence_tests : BaseTest
     {
         [Test]
-        public void Should_create_organisation()
+        public void Should_create_company()
         {
             var organisation = new Company { Name = "Firma Müller" };
 
@@ -21,7 +21,7 @@ namespace GwoDb.Tests.Integration
         }
 
         [Test]
-        public void Should_create_organisation_with_users()
+        public void Should_create_company_with_users()
         {
             var organisation = new Company { Name = "Firma Müller" };
             organisation.Users.Add(new Person{Name = "Kollege 1"});
@@ -40,9 +40,9 @@ namespace GwoDb.Tests.Integration
         }
 
         [Test]
-        public void Should_filter_and_order_organisations()
+        public void Should_filter_and_order_companies()
         {
-            Resolve<Arrange_organisations>()
+            Resolve<Arrange_companies>()
                 .AddOrganisation("Firma Meyer")
                 .AddOrganisation("Firma Müller")
                 .AddOrganisation("Genossenschaft Berger").

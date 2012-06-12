@@ -5,17 +5,17 @@ using System.Text;
 
 namespace GwoDb.Tests.Integration
 {
-    public class Arrange_organisations
+    public class Arrange_companies
     {
         private readonly CompanyRepository _companyRepo;
         private readonly List<Company> _organisationsToCreate = new List<Company>();
 
-        public Arrange_organisations(CompanyRepository companyRepo)
+        public Arrange_companies(CompanyRepository companyRepo)
         {
             _companyRepo = companyRepo;
         }
 
-        public Arrange_organisations AddOrganisation(string name)
+        public Arrange_companies AddOrganisation(string name)
         {
             _organisationsToCreate.Add(new Company { Name = name });
             return this;
