@@ -106,9 +106,9 @@
     <Compile Include="Controllers\Admin\AdminController.cs" />
     <Compile Include="Controllers\Admin\AdminWelcomeModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\Search\SearchController.cs" />
-    <Compile Include="Controllers\Search\SearchModel.cs" />
-    <Compile Include="Controllers\Search\SearchModelOrganisationDetail.cs" />
+    <Compile Include="Controllers\Search\SearchCompanyController.cs" />
+    <Compile Include="Controllers\Search\SearchCompanyModel.cs" />
+    <Compile Include="Controllers\Search\SearchModelCompanyDetail.cs" />
     <Compile Include="Controllers\Supporters\SupporterCompanyModel2Entity.cs" />
     <Compile Include="Controllers\Supporters\SupporterController.cs" />
     <Compile Include="Global.asax.cs">
@@ -227,8 +227,8 @@
   <ItemGroup>
     <None Include="Assets\css\bootstrap.min.responsive" />
     <None Include="Assets\css\bootstrap.responsive" />
-    <Content Include="Views\Search\Search.cshtml" />
-    <Content Include="Views\Search\Details.cshtml" />
+    <Content Include="Views\SearchCompany\Search.cshtml" />
+    <Content Include="Views\SearchCompany\Detail.cshtml" />
     <Content Include="Views\Shared\_UserMessage.cshtml" />
     <Content Include="Views\Supporter\Company.cshtml" />
     <Content Include="Views\Supporter\Person.cshtml" />

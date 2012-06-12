@@ -11,14 +11,20 @@ namespace GwoDb.Tools.Import
         public List<ImporterResultRow> Rows = new List<ImporterResultRow>();
 
         
-        public bool IsCompany()
-        {
+        public bool IsCompany(){
             return Convert.ToInt32(Rows.First().FormId) == (int) EntryType.Unternehmen;
         }
 
-        public bool IsClub()
-        {
+        public bool IsClub(){
             return Convert.ToInt32(Rows.First().FormId) == (int)EntryType.Verein;
+        }
+
+        public bool IsPolitician(){
+            return Convert.ToInt32(Rows.First().FormId) == (int)EntryType.Politiker;
+        }
+
+        public bool IsPerson(){
+            return Convert.ToInt32(Rows.First().FormId) == (int)EntryType.Privat;
         }
 
 
@@ -37,9 +43,9 @@ namespace GwoDb.Tools.Import
                 return Rows.Find(row => row.FieldName == "Firmenname").FieldValue;
 
             if(IsClub())
-                return Rows.Find(row => row.FieldName == "Firmenname").FieldValue;
+                return Rows.Find(row => row.FieldName == "Name des Vereins").FieldValue;
 
-            return Rows.Find(row => row.FieldName == "Name des Vereins").FieldValue;
+            return Rows.Find(row => row.FieldName == "Name").FieldValue;
         }
 
         public string GetPoliticalFunction()
@@ -51,24 +57,25 @@ namespace GwoDb.Tools.Import
             return "";
         }
 
-        public string GetEmail()
-        {
+        public string GetEmail(){
             return Rows.Find(row => row.FieldName == "Email*").FieldValue;
         }
 
-        public string GetBranche()
-        {
+        public string GetBranche(){
             return Rows.Find(row => row.FieldName == "Branche").FieldValue;
         }
 
-        public string GetBeschaeftigte()
-        {
+        public string GetBeschaeftigte(){
             return Rows.Find(row => row.FieldName == "Beschaeftigte").FieldValue;
         }
 
-        public string GetTaetigkeitsfeld()
-        {
-            return Rows.Find(row => row.FieldName == "Taetigkeitsfeld").FieldValue;
+        public string GetTaetigkeitsfeld(){
+            var foo =  Rows.Find(row => row.FieldName == "Taetigkeitsfeld");
+            return foo.FieldValue;
+        }
+
+        public string GetBeruf(){
+            return Rows.Find(row => row.FieldName == "Beruf").FieldValue;
         }
 
         public bool IsBilanz2011()

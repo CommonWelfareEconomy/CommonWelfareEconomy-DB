@@ -37,7 +37,7 @@ namespace Frontend.Web.Controllers
         public ActionResult LogOff()
         {
             _sessionUser.Logout();
-            return RedirectToAction("Search", "Search");
+            return RedirectToAction("Search", "SearchCompany");
         }
 
     }

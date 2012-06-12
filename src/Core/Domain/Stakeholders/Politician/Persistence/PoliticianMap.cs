@@ -2,18 +2,18 @@
 
 namespace GwoDb
 {
-    public class PersonMap : ClassMap<Person>
+    public class PoliticianMap : ClassMap<Politician>
     {
-        public PersonMap()
+        public PoliticianMap()
         {
             Id(x => x.Id);
             Map(x => x.Name);
-            Map(x => x.Job);
+            Map(x => x.Capacity);
             Map(x => x.Location);
             Map(x => x.Email);
             Map(x => x.Url);
             Map(x => x.DateCreated);
-            Map(x => x.DateModified);
+            Map(x => x.DateModified);            
         }
     }
 }

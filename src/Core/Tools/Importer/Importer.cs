@@ -6,20 +6,34 @@ namespace GwoDb.Tools.Import
     public class Importer : IRegisterAsInstancePerLifetime
     {
         private readonly GetOldDbAsModel _getOldDbAsModel;
-        private readonly OrganisationRepository _organisationRepository;
+        private readonly CompanyRepository _companyRepository;
+        private readonly PersonRepository _personRepository;
+        private readonly PoliticianRepository _politicianRepository;
+        private readonly ClubRepository _clubRepository;
 
         public Importer(GetOldDbAsModel getOldDbAsModel, 
-                        OrganisationRepository organisationRepository)
+                        CompanyRepository companyRepository, 
+                        PersonRepository personRepository, 
+                        PoliticianRepository politicianRepository, 
+                        ClubRepository clubRepository)
         {
             _getOldDbAsModel = getOldDbAsModel;
-            _organisationRepository = organisationRepository;
+            _companyRepository = companyRepository;
+            _personRepository = personRepository;
+            _politicianRepository = politicianRepository;
+            _clubRepository = clubRepository;
         }
 
         public ImporterResult Run()
         {
             var getOldDbAsModelResult = _getOldDbAsModel.Run();
-            _organisationRepository.Create(getOldDbAsModelResult.Organisations);
-            _organisationRepository.Session.Clear();
+
+            _companyRepository.Create(getOldDbAsModelResult.Organisations);
+            _personRepository.Create(getOldDbAsModelResult.Persons);
+            _politicianRepository.Create(getOldDbAsModelResult.Politicians);
+            _clubRepository.Create(getOldDbAsModelResult.Clubs);
+
+            _companyRepository.Session.Clear();
 
             return new ImporterResult { ImportedCompaniesCount = getOldDbAsModelResult.Organisations.Count};
         }

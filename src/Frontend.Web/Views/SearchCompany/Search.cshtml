@@ -6,12 +6,10 @@
     var sessionUser = ServiceLocator.Resolve<SessionUser>();    
 }
     
-@model SearchModel
+@model SearchCompanyModel
            
 <style>
-    
     .item:hover{ background-color: lightyellow;}
-    
 </style>
 
 <div class="span6">
@@ -54,9 +52,6 @@
                     @item.Location <a href="@item.Url">@item.Url</a><br/>
                     <i>Branche:</i> @item.Industry  &nbsp; <i>Mitarbeiter:</i> @item.Size
                 </div>
-                
-
-
             </div>
         }
     

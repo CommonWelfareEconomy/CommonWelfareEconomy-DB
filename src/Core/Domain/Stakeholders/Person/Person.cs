@@ -10,13 +10,10 @@ namespace GwoDb
     {
         public virtual string Name { get; set; }
 
-        public virtual Organisation Organisation { get; set; }
-        public virtual IList<Newsletter> Subscriptions { get; set; }
-
-        public Person()
-        {
-            Subscriptions = new List<Newsletter>();
-        }
+        public virtual string Job { get; set; }
+        public virtual string Location { get; set; }
+        public virtual string Email { get; set; }
+        public virtual string Url { get; set; }
 
     }
 }

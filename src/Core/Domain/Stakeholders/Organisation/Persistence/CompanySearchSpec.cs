@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using GwoDb.Infrastructure;
+﻿using GwoDb.Infrastructure;
 using Seedworks.Lib.Persistence;
 
 namespace GwoDb
 {
-    public class OrganisationSearchSpec : SearchSpecificationBase<OrganisationFilter, OrganisationOrderBy>{}
+    public class CompanySearchSpec : SearchSpecificationBase<CompanyFilter, CompanyOrderBy>{}
 
-    public class OrganisationFilter : ConditionContainer
+    public class CompanyFilter : ConditionContainer
     {
         public readonly ConditionString Name;
         public ConditionTextSearch TextSearch { get; private set; }
 
-        public OrganisationFilter()
+        public CompanyFilter()
         {
             Name = new ConditionString(this, "Name");
             TextSearch = new ConditionTextSearch(this,
@@ -22,5 +18,5 @@ namespace GwoDb
         }
     }
 
-    public class OrganisationOrderBy : SpecOrderByBase { }
+    public class CompanyOrderBy : SpecOrderByBase { }
 }

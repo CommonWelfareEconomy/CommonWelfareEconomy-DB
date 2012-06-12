@@ -1,4 +1,4 @@
-public class SearchModelOrganisationDetail
+public class SearchModelCompanyDetail
 {
     public string Name;
     public string Location;

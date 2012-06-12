@@ -3,7 +3,7 @@ using System.Linq;
 using GwoDb;
 using GwoDb.Web.Context;
 
-public class SearchModel
+public class SearchCompanyModel
 {
     public Message Message;
     public PagerModel Pager { get; set; }
@@ -11,16 +11,16 @@ public class SearchModel
     public string SearchTerm { get; set; }
     public int ResultCount { get; set; }
 
-    public List<SearchModelOrganisationDetail> Organisations;
+    public List<SearchModelCompanyDetail> Organisations;
 
-    public SearchModel()
+    public SearchCompanyModel()
     {
     }
 
-    public void Init(IEnumerable<Organisation> orgas, OrganisationSearchSpec searchSpec)
+    public void Init(IEnumerable<Company> orgas, CompanySearchSpec searchSpec)
     {
         Organisations = orgas.Select(org =>
-                            new SearchModelOrganisationDetail
+                            new SearchModelCompanyDetail
                             {
                                 Name = org.Name, 
                                 Location = org.Location, 

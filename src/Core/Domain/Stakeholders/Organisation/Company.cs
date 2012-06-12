@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using Seedworks.Lib.Persistence;
 
 namespace GwoDb
 {
-    public class Organisation : DomainEntity
+    public class Company : DomainEntity
     {
         public virtual string Name { get; set; }
         public virtual string Industry { get; set; }
@@ -24,7 +21,7 @@ namespace GwoDb
 
         public virtual IList<Person> Users { get; set; }
 
-        public Organisation()
+        public Company()
         {
             Users = new List<Person>();
         }

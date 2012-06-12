@@ -7,17 +7,17 @@ namespace GwoDb.Domain.Search
 {
     public class Search
     {
-        private readonly OrganisationRepository _organisationRepository;
+        private readonly CompanyRepository _companyRepository;
 
-        public Search(OrganisationRepository organisationRepository)
+        public Search(CompanyRepository companyRepository)
         {
-            _organisationRepository = organisationRepository;
+            _companyRepository = companyRepository;
         }
 
         public SearchResult Run()
         {
-            var searchSpec = new OrganisationSearchSpec();
-            var organisations =  _organisationRepository.GetBy(searchSpec);
+            var searchSpec = new CompanySearchSpec();
+            var organisations =  _companyRepository.GetBy(searchSpec);
 
             var result = new SearchResult();
             result.Items = from orga in organisations

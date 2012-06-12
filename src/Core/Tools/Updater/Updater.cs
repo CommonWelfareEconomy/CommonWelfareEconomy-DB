@@ -14,7 +14,7 @@ namespace GwoDb.Updates
         public void Run()
         {
             _updateStepExecuter
-                //.Add(2, UpdateToVs2.Run)
+                .Add(2, UpdateToVs2.Run)
                 .Run();
         }
 

@@ -7,23 +7,23 @@ namespace GwoDb.Tests.Integration
 {
     public class Arrange_organisations
     {
-        private readonly OrganisationRepository _organisationRepo;
-        private readonly List<Organisation> _organisationsToCreate = new List<Organisation>();
+        private readonly CompanyRepository _companyRepo;
+        private readonly List<Company> _organisationsToCreate = new List<Company>();
 
-        public Arrange_organisations(OrganisationRepository organisationRepo)
+        public Arrange_organisations(CompanyRepository companyRepo)
         {
-            _organisationRepo = organisationRepo;
+            _companyRepo = companyRepo;
         }
 
         public Arrange_organisations AddOrganisation(string name)
         {
-            _organisationsToCreate.Add(new Organisation { Name = name });
+            _organisationsToCreate.Add(new Company { Name = name });
             return this;
         }
 
         public void Persist()
         {
-            _organisationRepo.Create(_organisationsToCreate);
+            _companyRepo.Create(_organisationsToCreate);
         }
     }
 }

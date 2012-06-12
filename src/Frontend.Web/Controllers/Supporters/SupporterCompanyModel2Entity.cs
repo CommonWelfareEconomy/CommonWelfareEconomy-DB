@@ -14,14 +14,14 @@ public  static class SupporterCompanyModel2Entity
         CreateMap();
     }
 
-    public static Organisation Run(SupporterCompanyModel model)
+    public static Company Run(SupporterCompanyModel model)
     {
-        return Mapper.Map<SupporterCompanyModel, Organisation>(model);
+        return Mapper.Map<SupporterCompanyModel, Company>(model);
     }
 
     private static void CreateMap()
     {
-        Mapper.CreateMap<SupporterCompanyModel, Organisation>().
+        Mapper.CreateMap<SupporterCompanyModel, Company>().
             ForMember(right => right.Name, opt => opt.MapFrom(left => left.CompanyName)).
             ForMember(right => right.Users , opt => opt.Ignore()).
             ForMember(right => right.WelfareBalanceFor2011, opt => opt.Ignore()).

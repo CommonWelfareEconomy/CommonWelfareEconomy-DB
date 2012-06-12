@@ -9,9 +9,9 @@ using GwoDb;
 
 public class SupporterController : Controller
 {
-    private readonly OrganisationRepository _orgaRepository;
+    private readonly CompanyRepository _orgaRepository;
 
-    public SupporterController(OrganisationRepository orgaRepository)
+    public SupporterController(CompanyRepository orgaRepository)
     {
         _orgaRepository = orgaRepository;
     }

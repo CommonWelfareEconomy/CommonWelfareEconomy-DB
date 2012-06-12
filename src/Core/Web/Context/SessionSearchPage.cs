@@ -5,9 +5,9 @@ namespace GwoDb.Web.Context
 {
     public class SessionSearch : SessionBase, IRegisterAsInstancePerLifetime
     {
-        public OrganisationSearchSpec OrgaSearchSpec
+        public CompanySearchSpec OrgaSearchSpec
         {
-            get { return Data.Get("orgaSearchSpecSearchPage", new OrganisationSearchSpec()); }
+            get { return Data.Get("orgaSearchSpecSearchPage", new CompanySearchSpec()); }
             set { Data["orgaSearchSpecSearchPage"] = value; }
         }
     }

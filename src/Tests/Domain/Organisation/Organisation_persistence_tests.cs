@@ -11,9 +11,9 @@ namespace GwoDb.Tests.Integration
         [Test]
         public void Should_create_organisation()
         {
-            var organisation = new Organisation { Name = "Firma Müller" };
+            var organisation = new Company { Name = "Firma Müller" };
 
-            var organisationRepo = Resolve<OrganisationRepository>();
+            var organisationRepo = Resolve<CompanyRepository>();
             organisationRepo.Create(organisation);
 
             Assert.That(organisationRepo.GetAll().Count, Is.EqualTo(1));
@@ -23,11 +23,11 @@ namespace GwoDb.Tests.Integration
         [Test]
         public void Should_create_organisation_with_users()
         {
-            var organisation = new Organisation { Name = "Firma Müller" };
+            var organisation = new Company { Name = "Firma Müller" };
             organisation.Users.Add(new Person{Name = "Kollege 1"});
             organisation.Users.Add(new Person { Name = "Kollege 2" });
 
-            var organisationRepo = Resolve<OrganisationRepository>();
+            var organisationRepo = Resolve<CompanyRepository>();
             organisationRepo.Create(organisation);
 
             var organisations = organisationRepo.GetAll();
@@ -48,10 +48,10 @@ namespace GwoDb.Tests.Integration
                 .AddOrganisation("Genossenschaft Berger").
                 Persist();
 
-            var searchSpec = new OrganisationSearchSpec();
+            var searchSpec = new CompanySearchSpec();
             searchSpec.Filter.Name.Like("Firma");
 
-            var organisationRepo = Resolve<OrganisationRepository>();
+            var organisationRepo = Resolve<CompanyRepository>();
             var organisations = organisationRepo.GetBy(searchSpec);
 
             Assert.That(organisations.Count, Is.EqualTo(2));

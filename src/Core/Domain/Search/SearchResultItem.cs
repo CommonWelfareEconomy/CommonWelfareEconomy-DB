@@ -10,13 +10,13 @@ namespace GwoDb
         public string Name;
         public string Url;
 
-        public Organisation Organisation;
+        public Company Company;
 
         public SearchResultItem(){}
 
-        public SearchResultItem(Organisation organisation)
+        public SearchResultItem(Company company)
         {
-            Organisation = organisation;
+            Company = company;
         }
     }
 }

@@ -10,7 +10,7 @@ namespace GwoDb
 {
     public class CsvExporter
     {
-        public void Run(IEnumerable<Organisation> organisations, string filePath)
+        public void Run(IEnumerable<Company> organisations, string filePath)
         {
             var conf = new CsvHelper.Configuration.CsvConfiguration();
             conf.UseInvariantCulture = true;

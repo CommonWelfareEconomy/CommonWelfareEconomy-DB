@@ -1,36 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using NHibernate;
 using Seedworks.Lib.Persistence;
 
 namespace GwoDb
 {
-    public class OrganisationRepository : RepositoryDb<Organisation>
+    public class CompanyRepository : RepositoryDb<Company>
     {
-        public OrganisationRepository(ISession session) : base(session){}
+        public CompanyRepository(ISession session) : base(session){}
         public ISession Session { get { return _session; } }
 
-        public void Create(List<Organisation> organisationsToCreate)
+        public void Create(IEnumerable<Company> companiesToCreate)
         {
-            foreach(var organisation in organisationsToCreate)
+            foreach(var organisation in companiesToCreate)
                 Create(organisation);
         }
 
-        public override void Create(Organisation organisation)
+        public override void Create(Company company)
         {
-            foreach (var coleague in organisation.Users)
+            foreach (var coleague in company.Users)
                 if (coleague.Id == 0)
                 {
                     coleague.DateCreated = DateTime.Now;
                     coleague.DateModified = DateTime.Now;
                 }
 
-            base.Create(organisation);
+            base.Create(company);
             Flush();
         }
-
-
     }
 }

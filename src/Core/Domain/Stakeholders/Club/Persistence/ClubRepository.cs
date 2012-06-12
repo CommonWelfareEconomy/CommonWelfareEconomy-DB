@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using NHibernate;
+using Seedworks.Lib.Persistence;
 
 namespace GwoDb
 {
-    class ClubRepository
+    public class ClubRepository : RepositoryDb<Club>
     {
+        public ClubRepository(ISession session) : base(session)
+        {
+        }
     }
 }

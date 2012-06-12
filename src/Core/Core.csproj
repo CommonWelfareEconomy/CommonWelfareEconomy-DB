@@ -95,19 +95,23 @@
     <Compile Include="Domain\Stakeholders\Club\Persistence\ClubRepository.cs" />
     <Compile Include="Domain\Stakeholders\Club\Persistence\ClubSearchSpec.cs" />
     <Compile Include="Domain\Stakeholders\Organisation\Ops\CsvExporter.cs" />
-    <Compile Include="Domain\Stakeholders\Organisation\Organisation.cs" />
-    <Compile Include="Domain\Stakeholders\Organisation\Persistence\OrganisationMap.cs" />
-    <Compile Include="Domain\Stakeholders\Organisation\Persistence\OrganisationRepository.cs" />
-    <Compile Include="Domain\Stakeholders\Organisation\Persistence\OrganisationSearchSpec.cs" />
+    <Compile Include="Domain\Stakeholders\Organisation\Company.cs" />
+    <Compile Include="Domain\Stakeholders\Organisation\Persistence\CompanyRepository.cs" />
+    <Compile Include="Domain\Stakeholders\Organisation\Persistence\CompanySearchSpec.cs" />
     <Compile Include="Domain\Newsletter\Persistence\NewsletterMap.cs" />
     <Compile Include="Domain\Newsletter\Persistence\NewsletterRepository.cs" />
     <Compile Include="Domain\Newsletter\Newsletter.cs" />
     <Compile Include="Domain\Stakeholders\Person\Persistence\PersonMap.cs" />
     <Compile Include="Domain\Stakeholders\Person\Persistence\PersonRepository.cs" />
+    <Compile Include="Domain\Stakeholders\Person\Persistence\PersonSearchSpec.cs" />
     <Compile Include="Domain\Stakeholders\Person\Person.cs" />
     <Compile Include="Domain\Search\Search.cs" />
     <Compile Include="Domain\Search\SearchResult.cs" />
     <Compile Include="Domain\Search\SearchResultItem.cs" />
+    <Compile Include="Domain\Stakeholders\Politician\Persistence\PoliticianMap.cs" />
+    <Compile Include="Domain\Stakeholders\Politician\Persistence\PoliticianRepository.cs" />
+    <Compile Include="Domain\Stakeholders\Politician\Persistence\PoliticianSearchSpec.cs" />
+    <Compile Include="Domain\Stakeholders\Politician\Politician.cs" />
     <Compile Include="Infrastructure\IoC\AutofacCoreModule.cs" />
     <Compile Include="Infrastructure\IoC\IRegisterAsInstancePerLifetime.cs" />
     <Compile Include="Infrastructure\IoC\ServiceLocator.cs" />
@@ -132,7 +136,10 @@
     <Compile Include="Tools\Importer\Model\ImporterResultRowsAggregated.cs" />
     <Compile Include="Tools\Importer\Model\ImporterResultRow.cs" />
     <Compile Include="Tools\Importer\Process\3 GetOldDbAsModel.cs" />
+    <Compile Include="Tools\Importer\Process\3 GetOldDbAsModelResult.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs1InitialStep.cs" />
+    <Compile Include="Tools\Updater\Steps\UpdateToVs2.cs" />
+    <Compile Include="Tools\Updater\Steps\UpdateToVs3.cs" />
     <Compile Include="Tools\Updater\Updater.cs" />
     <Compile Include="Tools\Updater\UpdateStepExecuter.cs" />
     <Compile Include="Web\Context\SessionSearchPage.cs" />
@@ -152,7 +159,8 @@
     <Content Include="Tools\Updater\Scripts\1-initial.sql">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Tools\Updater\Scripts\2-add-club-table.sql" />
+    <Content Include="Tools\Updater\Scripts\3-add-club-table.sql" />
+    <Content Include="Tools\Updater\Scripts\2-rename-table-organisation.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
