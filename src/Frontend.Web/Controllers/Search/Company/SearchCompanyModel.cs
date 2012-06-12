@@ -1,26 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using GwoDb;
-using GwoDb.Web.Context;
 
-public class SearchCompanyModel
+public class SearchCompanyModel : SearchModelBase
 {
-    public Message Message;
-    public PagerModel Pager { get; set; }
-
-    public string SearchTerm { get; set; }
-    public int ResultCount { get; set; }
-
-    public List<SearchModelCompanyDetail> Organisations;
-
-    public SearchCompanyModel()
-    {
-    }
+    public List<SearchCompanyModelDetail> Organisations;
 
     public void Init(IEnumerable<Company> orgas, CompanySearchSpec searchSpec)
     {
         Organisations = orgas.Select(org =>
-                            new SearchModelCompanyDetail
+                            new SearchCompanyModelDetail
                             {
                                 Name = org.Name, 
                                 Location = org.Location, 
