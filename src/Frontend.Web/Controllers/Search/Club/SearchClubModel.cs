@@ -6,4 +6,22 @@ using GwoDb.Web.Context;
 public class SearchClubModel : SearchModelBase
 {
     public List<SearchClubModelDetail> Clubs;
+
+    public void Init(IEnumerable<Club> clubs, CompanySearchSpec searchSpec)
+    {
+        Clubs = clubs.Select(org =>
+                            new SearchClubModelDetail
+                            {
+                                Name = org.Name,
+                                Location = org.Location,
+                                Url = org.Url,
+                                AreaOfWork = org.AreaOfWork, 
+                                Email = org.Email
+                            }).ToList();
+
+        Pager = new PagerModel(searchSpec);
+        if (searchSpec.Filter.TextSearch.Items.Any())
+            SearchTerm = searchSpec.Filter.TextSearch.Items.Aggregate((current, next) => current + " " + next);
+        ResultCount = searchSpec.TotalItems;
+    }
 }

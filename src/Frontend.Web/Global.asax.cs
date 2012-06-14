@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Autofac;
 using Autofac.Integration.Mvc;
+using GwoDb;
 using GwoDb.Infrastructure;
+using GwoDb.Updates;
 using HibernatingRhinos.Profiler.Appender.NHibernate;
 
 namespace Frontend.Web
@@ -14,7 +13,7 @@ namespace Frontend.Web
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
 
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : HttpApplication
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
@@ -32,6 +31,7 @@ namespace Frontend.Web
         protected void Application_Start()
         {
             InitializeAutofac();
+            Sl.Resolve<Update>().Run(); 
 
             AreaRegistration.RegisterAllAreas();
 

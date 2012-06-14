@@ -21,7 +21,6 @@ namespace GwoDb
             Map(x => x.Password);
             Map(x => x.WelfareBalanceFor2011);
             Map(x => x.WelfareBalanceFor2012);
-            HasMany(x => x.Users).Cascade.All();
             Map(x => x.DateCreated);
             Map(x => x.DateModified);
         }

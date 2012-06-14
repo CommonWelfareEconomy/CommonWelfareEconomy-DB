@@ -15,18 +15,5 @@ namespace GwoDb
             foreach(var organisation in companiesToCreate)
                 Create(organisation);
         }
-
-        public override void Create(Company company)
-        {
-            foreach (var coleague in company.Users)
-                if (coleague.Id == 0)
-                {
-                    coleague.DateCreated = DateTime.Now;
-                    coleague.DateModified = DateTime.Now;
-                }
-
-            base.Create(company);
-            Flush();
-        }
     }
 }

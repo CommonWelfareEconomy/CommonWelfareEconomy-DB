@@ -35,7 +35,13 @@ namespace GwoDb.Tools.Import
 
             _companyRepository.Session.Clear();
 
-            return new ImporterResult { ImportedCompaniesCount = getOldDbAsModelResult.Organisations.Count};
+            return new ImporterResult
+                       {
+                           ImportedCompaniesCount = getOldDbAsModelResult.Organisations.Count, 
+                           ImportedPersons = getOldDbAsModelResult.Persons.Count,
+                           ImportedPoliticians = getOldDbAsModelResult.Politicians.Count,
+                           ImportedClubs = getOldDbAsModelResult.Clubs.Count
+                       };
         }
     }
 }

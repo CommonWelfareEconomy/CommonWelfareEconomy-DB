@@ -138,10 +138,12 @@
     <Compile Include="Tools\Importer\Model\ImporterResultRow.cs" />
     <Compile Include="Tools\Importer\Process\3 GetOldDbAsModel.cs" />
     <Compile Include="Tools\Importer\Process\3 GetOldDbAsModelResult.cs" />
+    <Compile Include="Tools\Updater\Scripts\ScriptPath.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs1InitialStep.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs2.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs3.cs" />
-    <Compile Include="Tools\Updater\Updater.cs" />
+    <Compile Include="Tools\Updater\Steps\UpdateToVs4.cs" />
+    <Compile Include="Tools\Updater\Update.cs" />
     <Compile Include="Tools\Updater\UpdateStepExecuter.cs" />
     <Compile Include="Web\Context\SessionSearchPage.cs" />
     <Compile Include="Web\Context\SessionUser.cs" />
@@ -160,8 +162,15 @@
     <Content Include="Tools\Updater\Scripts\1-initial.sql">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Tools\Updater\Scripts\3-add-club-table.sql" />
-    <Content Include="Tools\Updater\Scripts\2-rename-table-organisation.sql" />
+    <Content Include="Tools\Updater\Scripts\3-add-club-table.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tools\Updater\Scripts\2-rename-table-organisation.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tools\Updater\Scripts\4-add-table-politician-and-person.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

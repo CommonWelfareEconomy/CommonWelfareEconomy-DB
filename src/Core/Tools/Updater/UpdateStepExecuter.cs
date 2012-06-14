@@ -25,8 +25,7 @@ namespace GwoDb.Updates
 
         public void Run()
         {
-            if (!_doesTableExist.Run("Setting"))
-            {
+            if (!_doesTableExist.Run("Setting")){
                 UpdateToVs1InitialStep.Run();
             }
 

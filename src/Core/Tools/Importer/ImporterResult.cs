@@ -8,5 +8,8 @@ namespace GwoDb.Tools.Importer
     public class ImporterResult
     {
         public int ImportedCompaniesCount;
+        public int ImportedPersons;
+        public int ImportedPoliticians;
+        public int ImportedClubs;
     }
 }

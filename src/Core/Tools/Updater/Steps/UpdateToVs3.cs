@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using GwoDb.Infrastructure.Persistence;
 
-namespace GwoDb.Tools.Updater.Steps
+namespace GwoDb.Updates
 {
-    class UpdateToVs3
+    public class UpdateToVs3
     {
+        public static void Run()
+        {
+            Sl.Resolve<ExecuteSqlFile>().Run(ScriptPath.Get("3-add-club-table.sql"));            
+        }
     }
 }

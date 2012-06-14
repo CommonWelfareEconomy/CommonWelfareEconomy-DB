@@ -1,12 +1,13 @@
 ﻿using System.IO;
 using System.Text;
+using System.Web;
 using System.Web.Mvc;
 
 namespace GwoDb
 {
     public static class MessageHtml
     {
-        public static MvcHtmlString Message(this HtmlHelper html, Message message)
+        public static HtmlString Message(this HtmlHelper html, Message message)
         {
             if (message == null)
                 return new MvcHtmlString("");
@@ -27,9 +28,7 @@ namespace GwoDb
             result.View.Render(newViewContext, stringWriter);
             stringWriter.Flush();
 
-
-            return new MvcHtmlString(stringBuilder.ToString());
-
+            return new HtmlString(stringBuilder.ToString());
         }
     }
 }

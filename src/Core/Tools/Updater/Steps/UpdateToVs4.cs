@@ -2,11 +2,11 @@
 
 namespace GwoDb.Updates
 {
-    public static class UpdateToVs2
+    public class UpdateToVs4
     {
         public static void Run()
         {
-            Sl.Resolve<ExecuteSqlFile>().Run(ScriptPath.Get("2-rename-table-organisation.sql"));
+            Sl.Resolve<ExecuteSqlFile>().Run(ScriptPath.Get("4-add-table-politician-and-person.sql"));
         }
     }
 }

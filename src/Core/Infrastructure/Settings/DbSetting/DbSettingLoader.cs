@@ -12,12 +12,21 @@ namespace GwoDb.Infrastructure
 
         public DbSettings Get()
         {
-            return base.GetById(1);
+            var result = base.GetById(1) ;
+            if(result == null)
+            {       
+                result = new DbSettings();
+                result.AppVersion = 0;
+            }
+            return result;
         }
 
         public void UpdateAppVersion(int newAppVersion)
         {
             var dbSettings = Get();
+            if(dbSettings.Id == 0)
+                Create(dbSettings);
+
             dbSettings.AppVersion = newAppVersion;
             base.Update(dbSettings);
             base.Flush();
