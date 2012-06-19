@@ -7,7 +7,7 @@ public class SearchClubModel : SearchModelBase
 {
     public List<SearchClubModelDetail> Clubs;
 
-    public void Init(IEnumerable<Club> clubs, CompanySearchSpec searchSpec)
+    public void Init(IEnumerable<Club> clubs, ClubSearchSpec searchSpec)
     {
         Clubs = clubs.Select(org =>
                             new SearchClubModelDetail

@@ -20,11 +20,6 @@ namespace GwoDb.Tests
             var csvExporter = new CsvExporter();
             csvExporter.Run(resultOrganisations.Organisations, "unternehmen.csv");
 
-            foreach(var orga in resultOrganisations.Organisations)
-            {
-                Console.WriteLine(orga.Name  + " " + orga.Location);
-            }
-
             Resolve<Importer>().Run();
         }
     }

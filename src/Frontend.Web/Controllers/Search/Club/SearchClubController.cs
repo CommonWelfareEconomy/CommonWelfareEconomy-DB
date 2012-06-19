@@ -18,10 +18,10 @@ public class SearchClubController : Controller
     [HttpGet]
     public ActionResult Search(SearchClubModel searchClubModel, int? page)
     {
-        _sessionSearch.OrgaSearchSpec.PageSize = 20;
+        _sessionSearch.ClubSearchSpec.PageSize = 20;
 
         if (Request["page"] != null)
-            _sessionSearch.OrgaSearchSpec.CurrentPage = Convert.ToInt32(Request["page"]);
+            _sessionSearch.ClubSearchSpec.CurrentPage = Convert.ToInt32(Request["page"]);
 
         return GetView(searchClubModel);
     }
@@ -29,20 +29,20 @@ public class SearchClubController : Controller
     [HttpPost]
     public ActionResult Search(SearchClubModel searchClubModel)
     {
-        _sessionSearch.OrgaSearchSpec.CurrentPage = 1;
+        _sessionSearch.ClubSearchSpec.CurrentPage = 1;
 
-        _sessionSearch.OrgaSearchSpec.Filter.TextSearch.Clear();
+        _sessionSearch.ClubSearchSpec.Filter.TextSearch.Clear();
         if (searchClubModel.SearchTerm != null)
-            _sessionSearch.OrgaSearchSpec.Filter.TextSearch.AddTerms(searchClubModel.SearchTerm);
+            _sessionSearch.ClubSearchSpec.Filter.TextSearch.AddTerms(searchClubModel.SearchTerm);
 
         return GetView(searchClubModel);
     }
 
     private ActionResult GetView(SearchClubModel searchClubModel)
     {
-        var orgas = _clubRepository.GetBy(_sessionSearch.OrgaSearchSpec);
+        var clubs = _clubRepository.GetBy(_sessionSearch.ClubSearchSpec);
 
-        searchClubModel.Init(orgas, _sessionSearch.OrgaSearchSpec);
+        searchClubModel.Init(clubs, _sessionSearch.ClubSearchSpec);
         return View(searchClubModel);
     }
 

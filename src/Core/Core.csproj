@@ -89,7 +89,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\NHibernateProfilerBootstrapper.cs" />
-    <Compile Include="Domain\Search\GetTotals.cs" />
+    <Compile Include="Domain\Search\GetTotals\GetTotals.cs" />
+    <Compile Include="Domain\Search\GetTotals\GetTotalsResult.cs" />
     <Compile Include="Domain\Stakeholders\Club\Club.cs" />
     <Compile Include="Domain\Stakeholders\Club\Persistence\ClubMap.cs" />
     <Compile Include="Domain\Stakeholders\Club\Persistence\ClubRepository.cs" />
@@ -124,6 +125,7 @@
     <Compile Include="Infrastructure\Persistence\Session\SessionFactory.cs" />
     <Compile Include="Infrastructure\Persistence\Spec\SpecFilterBase.cs" />
     <Compile Include="Infrastructure\Persistence\Spec\SpecOrderByBase.cs" />
+    <Compile Include="Infrastructure\Persistence\TruncateTable.cs" />
     <Compile Include="Infrastructure\Settings\DbSetting\DbSettingLoader.cs" />
     <Compile Include="Infrastructure\Settings\DbSetting\DbSettings.cs" />
     <Compile Include="Infrastructure\Settings\DbSetting\DbSettingsMap.cs" />

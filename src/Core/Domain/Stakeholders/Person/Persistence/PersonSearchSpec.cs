@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GwoDb
 {
-    class PersonSearchSpec
+    public class PersonSearchSpec
     {
     }
 }

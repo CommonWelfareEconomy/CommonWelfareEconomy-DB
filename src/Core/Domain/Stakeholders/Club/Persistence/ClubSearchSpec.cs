@@ -7,7 +7,7 @@ using Seedworks.Lib.Persistence;
 
 namespace GwoDb
 {
-    public class ClubSearchSpec : SearchSpecificationBase<CompanyFilter, CompanyOrderBy>{}
+    public class ClubSearchSpec : SearchSpecificationBase<ClubFilter, ClubOrderBy> { }
     
 
     public class ClubFilter : ConditionContainer
@@ -16,8 +16,7 @@ namespace GwoDb
 
         public ClubFilter()
         {
-            TextSearch = new ConditionTextSearch(this,
-                "Name");
+            TextSearch = new ConditionTextSearch(this, "Name", "AreaOfWork", "Location");
         }
     }
 
