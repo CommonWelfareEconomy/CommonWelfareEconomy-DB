@@ -1,6 +1,57 @@
-﻿@{
+﻿@using GwoDb
+@using GwoDb.Web.Context
+@{
     ViewBag.Title = "Search";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var sessionUser = ServiceLocator.Resolve<SessionUser>();
 }
 
-<h2>Search-Person</h2>
+@model SearchPersonModel
+
+<style>
+    .item:hover{ background-color: lightyellow;}
+</style>
+
+<div class="span6">
+
+@using (Html.BeginForm()) {
+    
+    <div class="form-search well">
+        @Html.TextBoxFor(m => m.SearchTerm, new{@class="input-xlarge"})
+        <input type="submit" class="btn btn-primary" value="Suche"/>
+    </div>
+    
+    <div style="margin-top: -16px; margin-bottom: 5px;">@Model.ResultCount Personen</div>
+
+    if (Model.ResultCount > 0)
+    {
+        <div style="padding-top: 1px;">@Html.Pager(Model.Pager)</div>
+    
+        foreach (var item in Model.Persons)
+        {
+            <div class="item" style="padding:6px; width: 700px; ">
+                
+                <div style="width: 100px; height: 50px; float: right; ">
+                    @if (sessionUser.IsAdmin)
+                    {
+                        <a href="#">[edit]</a>
+                        <a href="#">[x]</a>   
+                    }
+                </div>
+
+                <div style="width: 550px; ">
+                    <span style="font-size: 17px;">@item.Name</span><br/>
+                    @item.Location <a href="@item.Url">@item.Url</a><br/>
+                    <i>Beruf:</i> @item.Job  
+                </div>
+            </div>
+        }
+    
+        <div style="padding-top: 15px;">@Html.Pager(Model.Pager)</div>         
+    }
+    else
+    {
+         <div>Keine Treffer</div>
+     }
+}
+</div>

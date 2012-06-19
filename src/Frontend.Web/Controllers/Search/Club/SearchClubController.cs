@@ -46,7 +46,6 @@ public class SearchClubController : Controller
         return View(searchClubModel);
     }
 
-
     public ActionResult Details(int id)
     {
         return View();
