@@ -14,52 +14,54 @@
 
 <div class="span6">
 
-@using (Html.BeginForm()) {
+    @using (Html.BeginForm()) {
     
-    <div class="form-search well">
-        @Html.TextBoxFor(m => m.SearchTerm, new{@class="input-xlarge"})
-        <input type="submit" class="btn btn-primary" value="Suche"/>
-    </div>
+        <div class="form-search well">
+            @Html.TextBoxFor(m => m.SearchTerm, new{@class="input-xlarge"})
+            <input type="submit" class="btn btn-primary" value="Suche"/>
+        </div>
     
-    <div style="margin-top: -16px; margin-bottom: 5px;">@Model.ResultCount Unternehmen</div>
+        <div style="margin-top: -16px; margin-bottom: 5px;">@Model.ResultCount Unternehmen</div>
 
-    if (Model.ResultCount > 0)
-    {
-        <div style="padding-top: 1px;">@Html.Pager(Model.Pager)</div>
-    
-        foreach (var item in Model.Organisations)
+        if (Model.ResultCount > 0)
         {
-            <div class="item" style="padding:6px; width: 700px; ">
-                
-                <div style="width: 100px; height: 50px; float: right; ">
-                    @if (sessionUser.IsAdmin)
-                    {
-                        <a href="#">[edit]</a>
-                        <a href="#">[x]</a>   
-                    }
-                </div>
-
-                <div style="width: 550px; ">
-                    @if (item.Balance2011)
-                    {
-                        <img src="/Content/gwb-blue.png" style="float: left; padding-right: 7px;"/>
-                    }
-                    @if (item.Balance2012)
-                    {
-                        <img src="/Content/gwb-red.png" style="float: left; padding-right: 7px;"/>
-                    }
-                    <span style="font-size: 17px;">@item.Name</span><br/>
-                    @item.Location <a href="@item.Url">@item.Url</a><br/>
-                    <i>Branche:</i> @item.Industry  &nbsp; <i>Mitarbeiter:</i> @item.Size
-                </div>
-            </div>
-        }
+            <div style="padding-top: 1px;">@Html.Pager(Model.Pager)</div>
     
-        <div style="padding-top: 15px;">@Html.Pager(Model.Pager)</div>         
+            foreach (var item in Model.Organisations)
+            {
+                <div class="item" style="padding:6px; width: 700px; ">
+                
+                    <div style="width: 100px; height: 50px; float: right; ">
+                        @if (sessionUser.IsAdmin)
+                        {
+                            <a href="#">[edit]</a>
+                            <a data-toggle="modal" data-copmpanyId="1" href="#modalDelete">[x]</a>   
+                        }
+                    </div>
+
+                    <div style="width: 550px; ">
+                        @if (item.Balance2011)
+                        {
+                            <img src="/Content/gwb-blue.png" style="float: left; padding-right: 7px;"/>
+                        }
+                        @if (item.Balance2012)
+                        {
+                            <img src="/Content/gwb-red.png" style="float: left; padding-right: 7px;"/>
+                        }
+                        <span style="font-size: 17px;">@item.Name</span><br/>
+                        @item.Location <a href="@item.Url">@item.Url</a><br/>
+                        <i>Branche:</i> @item.Industry  &nbsp; <i>Mitarbeiter:</i> @item.Size
+                    </div>
+                </div>
+            }
+    
+            <div style="padding-top: 15px;">@Html.Pager(Model.Pager)</div>         
+        }
+        else
+        {
+            <div>Keine Treffer</div>
+        }
     }
-    else
-    {
-         <div>Keine Treffer</div>
-     }
-}
 </div>
+
+@Html.Partial("_DeleteEntitiyModal")

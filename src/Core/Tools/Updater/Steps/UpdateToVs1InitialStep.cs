@@ -7,7 +7,7 @@ namespace GwoDb.Updates
     {
         public static void Run()
         {
-            ServiceLocator.Resolve<ExecuteSqlFile>().Run("Tools/Updater/Scripts/1-initial.sql");
+            ServiceLocator.Resolve<ExecuteSqlFile>().Run(ScriptPath.Get("1-initial.sql"));
             CreateInitialRecord();
         }
 

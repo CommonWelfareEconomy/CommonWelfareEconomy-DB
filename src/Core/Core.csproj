@@ -147,6 +147,7 @@
     <Compile Include="Tools\Updater\Steps\UpdateToVs4.cs" />
     <Compile Include="Tools\Updater\Update.cs" />
     <Compile Include="Tools\Updater\UpdateStepExecuter.cs" />
+    <Compile Include="Web\ActionFilter\AccessOnlyIfAdmin.cs" />
     <Compile Include="Web\Context\SessionSearchPage.cs" />
     <Compile Include="Web\Context\SessionUser.cs" />
     <Compile Include="Web\Message\Message.cs" />

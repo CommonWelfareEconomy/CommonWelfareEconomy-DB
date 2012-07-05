@@ -54,5 +54,20 @@ namespace Frontend.Web.Controllers
             return View();
         }
 
+        
+        [HttpPost]
+        public JsonResult DeleteDetails(int id)
+        {
+            var company = _companyRepo.GetById(Convert.ToInt32(id));
+
+            return new JsonResult
+            {
+                Data = new
+                {
+                    companyName = company.Name
+                }
+            };
+        }
+
     }
 }

@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using GwoDb;
-using GwoDb.Infrastructure.Persistence;
 using GwoDb.Tools.Import;
 using GwoDb.Updates;
+using NHibernate;
 
 namespace Frontend.Web.Controllers.Admin
 {
@@ -14,17 +11,18 @@ namespace Frontend.Web.Controllers.Admin
     {
         private readonly Importer _importer;
         private readonly Update _update;
-        private readonly ExecuteSqlFile _executeSqlFile;
+        private readonly ISession _session;
 
         public AdminController(Importer importer, 
                                Update update, 
-                               ExecuteSqlFile executeSqlFile)
+                               ISession session)
         {
             _importer = importer;
             _update = update;
-            _executeSqlFile = executeSqlFile;
+            _session = session;
         }
 
+        [AccessOnlyLocalAttribute]
         public ActionResult Welcome()
         {
             var adminWelcomeModel = new AdminWelcomeModel();
@@ -36,9 +34,13 @@ namespace Frontend.Web.Controllers.Admin
         }
 
         [HttpGet]
+        [AccessOnlyLocalAttribute]
         public ActionResult Import()
         {
-            _executeSqlFile.Run("Tools/Updater/Scripts/1-initial.sql");
+            _session.CreateSQLQuery("TRUNCATE table Club").ExecuteUpdate();
+            _session.CreateSQLQuery("TRUNCATE table Company").ExecuteUpdate();
+            _session.CreateSQLQuery("TRUNCATE table Person").ExecuteUpdate();
+            _session.CreateSQLQuery("TRUNCATE table Politician").ExecuteUpdate();
             _update.Run();
             
             var importerResult = _importer.Run();
