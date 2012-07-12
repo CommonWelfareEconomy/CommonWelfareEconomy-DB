@@ -56,6 +56,7 @@ namespace Frontend.Web.Controllers
 
         
         [HttpPost]
+        [AccessOnlyLoggedIn]
         public JsonResult DeleteDetails(int id)
         {
             var company = _companyRepo.GetById(Convert.ToInt32(id));
@@ -67,6 +68,13 @@ namespace Frontend.Web.Controllers
                     companyName = company.Name
                 }
             };
+        }
+
+        [HttpPost]
+        [AccessOnlyLoggedIn]
+        public void DeleteCompany(int id)
+        {
+            _companyRepo.Delete(id);
         }
 
     }

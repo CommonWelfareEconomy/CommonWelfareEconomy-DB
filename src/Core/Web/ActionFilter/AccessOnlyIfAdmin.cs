@@ -2,7 +2,7 @@
 
 namespace System.Web.Mvc
 {
-    public class AccessOnlyLocalAttribute : ActionFilterAttribute
+    public class AccessOnlyLoggedIn : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {

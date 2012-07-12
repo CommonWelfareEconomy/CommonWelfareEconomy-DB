@@ -29,13 +29,13 @@
     
             foreach (var item in Model.Organisations)
             {
-                <div class="item" style="padding:6px; width: 700px; ">
+                <div class="item" style="padding:6px; width: 700px;"  id="divRow-@item.Id">
                 
                     <div style="width: 100px; height: 50px; float: right; ">
                         @if (sessionUser.IsAdmin)
                         {
                             <a href="#">[edit]</a>
-                            <a data-toggle="modal" data-copmpanyId="1" href="#modalDelete">[x]</a>   
+                            <a data-toggle="modal" data-copmpanyId="@item.Id" href="#modalDelete">[x]</a>   
                         }
                     </div>
 

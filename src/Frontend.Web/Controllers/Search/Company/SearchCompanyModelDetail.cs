@@ -1,5 +1,6 @@
 public class SearchCompanyModelDetail
 {
+    public int Id;
     public string Name;
     public string Location;
     public string Url;

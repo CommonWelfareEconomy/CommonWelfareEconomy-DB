@@ -22,7 +22,7 @@ namespace Frontend.Web.Controllers.Admin
             _session = session;
         }
 
-        [AccessOnlyLocalAttribute]
+        [AccessOnlyLoggedIn]
         public ActionResult Welcome()
         {
             var adminWelcomeModel = new AdminWelcomeModel();
@@ -34,7 +34,7 @@ namespace Frontend.Web.Controllers.Admin
         }
 
         [HttpGet]
-        [AccessOnlyLocalAttribute]
+        [AccessOnlyLoggedIn]
         public ActionResult Import()
         {
             _session.CreateSQLQuery("TRUNCATE table Club").ExecuteUpdate();

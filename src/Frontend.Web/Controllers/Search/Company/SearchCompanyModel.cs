@@ -17,7 +17,8 @@ public class SearchCompanyModel : SearchModelBase
                                 Industry =  org.Industry, 
                                 Size =  org.Size, 
                                 Balance2011 = org.WelfareBalanceFor2011,
-                                Balance2012 = org.WelfareBalanceFor2012
+                                Balance2012 = org.WelfareBalanceFor2012,
+                                Id = org.Id
                             }).ToList();
 
         Pager = new PagerModel(searchSpec);
