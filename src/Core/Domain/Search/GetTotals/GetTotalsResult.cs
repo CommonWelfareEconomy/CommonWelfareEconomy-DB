@@ -11,5 +11,7 @@ namespace GwoDb.Domain.Search
         public int TotalClubs;
         public int TotalPoliticians;
         public int TotalPersons;
+
+        public int TotalAll { get { return TotalCompanies + TotalClubs + TotalPoliticians + TotalPersons; } }
     }
 }
