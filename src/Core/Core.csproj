@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\NHibernateProfilerBootstrapper.cs" />
+    <Compile Include="Domain\Login\HashPassword.cs" />
     <Compile Include="Domain\Search\GetTotals\GetTotals.cs" />
     <Compile Include="Domain\Search\GetTotals\GetTotalsResult.cs" />
     <Compile Include="Domain\Stakeholders\Club\Club.cs" />
@@ -110,6 +111,15 @@
     <Compile Include="Infrastructure\IoC\AutofacCoreModule.cs" />
     <Compile Include="Infrastructure\IoC\IRegisterAsInstancePerLifetime.cs" />
     <Compile Include="Infrastructure\IoC\ServiceLocator.cs" />
+    <Compile Include="Infrastructure\PersistentLogin\Cookie\GetPersistentLoginCookieValues.cs" />
+    <Compile Include="Infrastructure\PersistentLogin\Cookie\GetPersistentLoginCookieValuesResult.cs" />
+    <Compile Include="Infrastructure\PersistentLogin\Cookie\RemovePersistentLoginFromCookie.cs" />
+    <Compile Include="Infrastructure\PersistentLogin\Cookie\WritePersistentLoginToCookie.cs" />
+    <Compile Include="Infrastructure\PersistentLogin\Model\Ops\CreatePersistentLogin.cs" />
+    <Compile Include="Infrastructure\PersistentLogin\Model\Ops\LoginFromCookie.cs" />
+    <Compile Include="Infrastructure\PersistentLogin\Model\Persistence\PersistentLoginMap.cs" />
+    <Compile Include="Infrastructure\PersistentLogin\Model\Persistence\PersistentLoginRepository.cs" />
+    <Compile Include="Infrastructure\PersistentLogin\Model\PersistentLogin.cs" />
     <Compile Include="Infrastructure\Persistence\Constants.cs" />
     <Compile Include="Infrastructure\Persistence\ExecuteFile.cs" />
     <Compile Include="Infrastructure\Persistence\Schema\DoesTableExist.cs" />
@@ -138,6 +148,7 @@
     <Compile Include="Tools\Updater\Steps\UpdateToVs2.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs3.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs4.cs" />
+    <Compile Include="Tools\Updater\Steps\UpdateToVs5.cs" />
     <Compile Include="Tools\Updater\Update.cs" />
     <Compile Include="Tools\Updater\UpdateStepExecuter.cs" />
     <Compile Include="Web\ActionFilter\AccessOnlyIfAdmin.cs" />
@@ -165,6 +176,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Tools\Updater\Scripts\4-add-table-politician-and-person.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tools\Updater\Scripts\5-create-tbl-persistentLogin.sql">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

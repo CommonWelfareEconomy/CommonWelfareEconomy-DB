@@ -6,6 +6,7 @@ using Autofac.Integration.Mvc;
 using GwoDb;
 using GwoDb.Infrastructure;
 using GwoDb.Updates;
+using GwoDb.Web.Context;
 using HibernatingRhinos.Profiler.Appender.NHibernate;
 
 namespace Frontend.Web
@@ -50,6 +51,12 @@ namespace Frontend.Web
             builder.RegisterModule(new AutofacCoreModule());
             var container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+        }
+
+        protected void Session_Start()
+        {
+            if (!Sl.Resolve<SessionUser>().IsLoggedIn)
+                Sl.Resolve<LoginFromCookie>().Run();
         }
     }
 }
