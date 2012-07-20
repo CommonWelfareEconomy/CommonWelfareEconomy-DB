@@ -105,6 +105,7 @@
     <Compile Include="Controllers\Search\Club\SearchClubController.cs" />
     <Compile Include="Controllers\Search\Club\SearchClubModel.cs" />
     <Compile Include="Controllers\Search\Club\SearchClubModelDetail.cs" />
+    <Compile Include="Controllers\Search\Company\Edit\CompanyDetailsModel.cs" />
     <Compile Include="Controllers\Search\Company\SearchCompanyController.cs" />
     <Compile Include="Controllers\Search\Company\SearchCompanyModel.cs" />
     <Compile Include="Controllers\Search\Person\SearchPersonController.cs" />
@@ -239,7 +240,7 @@
     <None Include="Assets\css\bootstrap.min.responsive" />
     <None Include="Assets\css\bootstrap.responsive" />
     <Content Include="Views\SearchCompany\Search.cshtml" />
-    <Content Include="Views\SearchCompany\Detail.cshtml" />
+    <Content Include="Views\SearchCompany\Details.cshtml" />
     <Content Include="Views\Shared\_UserMessage.cshtml" />
     <Content Include="Views\Supporter\Company.cshtml" />
     <Content Include="Views\Supporter\Person.cshtml" />
@@ -267,7 +268,7 @@
   </Target>
   <ProjectExtensions>
     <VisualStudio>
-      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+      <FlavorProperties GUID="{349C5851-65DF-11DA-9384-00065B846F21}">
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>

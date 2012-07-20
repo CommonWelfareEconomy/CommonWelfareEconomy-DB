@@ -1,10 +1,10 @@
-﻿@using GwoDb
-@model SupporterCompanyModel
-@{
-    ViewBag.Title = "Company";
+﻿@{
+    ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    
 }
+
+@using GwoDb
+@model CompanyDetailsModel
 
 <style type="text/css">
     
@@ -16,17 +16,12 @@
 
 <div class="span8" >
     
-    <h2>Unternehmen als Unterstützer eintragen</h2>
-
-    <p>Wenn Sie die Gemeinwohl-Ökonomie als <b>Unternehmen</b> unterzeichnen wollen, füllen Sie bitte nachfolgendes Formular vollständig aus oder kontaktieren Sie uns per Mail an <a href="mailto:info@gemeinwohl-oekonomie.org">info@gemeinwohl-oekonomie.org</a></p>
-
-    <p>Die Unterzeichnung bedeutet, dass Sie dem (entwicklungsoffenen) Modell im großen und ganzen zustimmen (nicht in jedem Detail) und seine demokratische Umsetzung einfordern.</p>
-    
+   
     @using (Html.BeginForm()) {
     
         <div class="form-horizontal">
 
-            <legend>Jetzt als Unterstützer eintragen</legend>
+            <legend>@Model.CompanyName bearbeiten</legend>
             
             @Html.Message(Model.Message)
             
@@ -99,20 +94,11 @@
                     <p class="help-block">Für das Unternehmen soll eine Bilanz für das Jahr 2012 erstellt werden.</p>
                 </div>
             </div>
-            
-            <div class="control-group">
-                @Html.LabelFor(m => m.Password)
-                <div class="controls">
-                    @Html.PasswordFor(m => m.Password, new { @class = "span2"})
-                </div>
-            </div>
       
             <div class="form-actions">
-                <button type="submit" class="btn btn-primary">Als Unterstützer eintragen</button>
+                <button type="submit" class="btn btn-primary">Speichern</button>
             </div>
         </div>
     }
 
 </div>
-
-
