@@ -143,6 +143,9 @@
     <Compile Include="Tools\Importer\Model\ImporterResultRow.cs" />
     <Compile Include="Tools\Importer\Process\3 GetOldDbAsModel.cs" />
     <Compile Include="Tools\Importer\Process\3 GetOldDbAsModelResult.cs" />
+    <Content Include="Tools\Updater\Scripts\7-new-field-country-Iso3-in-tbl-company.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Compile Include="Tools\Updater\Scripts\ScriptPath.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs1InitialStep.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs2.cs" />
@@ -150,6 +153,7 @@
     <Compile Include="Tools\Updater\Steps\UpdateToVs4.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs5.cs" />
     <Compile Include="Tools\Updater\Steps\UpdateToVs6.cs" />
+    <Compile Include="Tools\Updater\Steps\UpdateToVs7.cs" />
     <Compile Include="Tools\Updater\Update.cs" />
     <Compile Include="Tools\Updater\UpdateStepExecuter.cs" />
     <Compile Include="Web\ActionFilter\AccessOnlyIfAdmin.cs" />

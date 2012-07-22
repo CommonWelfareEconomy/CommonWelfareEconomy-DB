@@ -19,6 +19,7 @@ namespace GwoDb
             Map(x => x.ZipCode);
             Map(x => x.Email);
             Map(x => x.Password);
+            Map(x => x.CountryIso3);
             Map(x => x.WelfareBalanceFor2011);
             Map(x => x.WelfareBalanceFor2012);
             Map(x => x.DateCreated);

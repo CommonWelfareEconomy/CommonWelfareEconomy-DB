@@ -10,7 +10,6 @@
 )WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 
-GO
 
 INSERT INTO country (iso, name, printableName, iso3, numCode) VALUES ('AF','AFGHANISTAN','Afghanistan','AFG','004');
 INSERT INTO country (iso, name, printableName, iso3, numCode) VALUES ('AL','ALBANIA','Albania','ALB','008');

@@ -15,6 +15,8 @@ namespace GwoDb
 
         public virtual string Email { get; set; }
         public virtual string Password { get; set; }
+
+        public virtual string CountryIso3 { get; set; }
         
         public virtual bool WelfareBalanceFor2011 { get; set; }
         public virtual bool WelfareBalanceFor2012 { get; set; }

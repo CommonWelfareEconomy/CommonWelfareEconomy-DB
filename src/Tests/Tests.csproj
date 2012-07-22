@@ -99,7 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Domain\Search\" />
-    <Folder Include="Integration.Persistence\" />
     <Folder Include="Persistence\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
