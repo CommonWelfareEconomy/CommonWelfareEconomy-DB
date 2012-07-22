@@ -44,4 +44,18 @@ public class CompanyDetailsModel : Controller
     [DataType(DataType.Password)]
     [Display(Name = "Password")]
     public string Password { get; set; }
+
+    public CompanyDetailsModel(){}
+
+    public CompanyDetailsModel(Company company)
+    {
+        CompanyName = company.Name;
+        Industry = company.Industry;
+        Size = company.Size;
+        Url = company.Url;
+        Location = company.Location;
+        ZipCode = company.ZipCode;
+        Email = company.Email;
+        WelfareBalanceFor2012 = company.WelfareBalanceFor2012;   
+    }
 }

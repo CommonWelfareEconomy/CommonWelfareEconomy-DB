@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System.Reflection;
+using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Autofac;
@@ -49,6 +50,7 @@ namespace Frontend.Web
             var builder = new ContainerBuilder();
             builder.RegisterControllers(typeof (MvcApplication).Assembly);
             builder.RegisterModule(new AutofacCoreModule());
+            builder.RegisterAssemblyTypes(Assembly.GetAssembly(typeof(MvcApplication))).AssignableTo<IRegisterAsInstancePerLifetime>();
             var container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
         }

@@ -34,7 +34,7 @@
                     <div style="width: 100px; height: 50px; float: right; ">
                         @if (sessionUser.IsAdmin)
                         {
-                            <a href="#">[edit]</a>
+                            <a href="/SearchCompany/Details/@item.Id">[edit]</a>
                             <a data-toggle="modal" data-copmpanyId="@item.Id" href="#modalDelete">[x]</a>   
                         }
                     </div>

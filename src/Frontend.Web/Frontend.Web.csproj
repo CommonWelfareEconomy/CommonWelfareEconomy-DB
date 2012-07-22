@@ -106,6 +106,7 @@
     <Compile Include="Controllers\Search\Club\SearchClubModel.cs" />
     <Compile Include="Controllers\Search\Club\SearchClubModelDetail.cs" />
     <Compile Include="Controllers\Search\Company\Edit\CompanyDetailsModel.cs" />
+    <Compile Include="Controllers\Search\Company\Edit\CompanyDetailsModel2Entity.cs" />
     <Compile Include="Controllers\Search\Company\SearchCompanyController.cs" />
     <Compile Include="Controllers\Search\Company\SearchCompanyModel.cs" />
     <Compile Include="Controllers\Search\Person\SearchPersonController.cs" />

@@ -32,6 +32,9 @@ namespace GwoDb.Tools.Import
         {
             var getOldDbAsModelResult = _getOldDbAsModel.Run();
 
+            _companyRepository.Session.Flush();
+            _companyRepository.Session.Clear();
+
             _truncateTable.Run(new[] { "Company", "Person", "Club", "Politician" });
             _companyRepository.Create(getOldDbAsModelResult.Organisations);
             _personRepository.Create(getOldDbAsModelResult.Persons);

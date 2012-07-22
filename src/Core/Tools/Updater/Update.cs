@@ -1,4 +1,5 @@
 ﻿using GwoDb.Infrastructure;
+using GwoDb.Tools.Updater.Steps;
 
 namespace GwoDb.Updates
 {
@@ -18,6 +19,7 @@ namespace GwoDb.Updates
                 .Add(3, UpdateToVs3.Run)
                 .Add(4, UpdateToVs4.Run)
                 .Add(5, UpdateToVs5.Run)
+                .Add(5, UpdateToVs6.Run)
                 .Run();
         }
 

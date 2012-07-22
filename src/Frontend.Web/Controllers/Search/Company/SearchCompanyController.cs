@@ -49,12 +49,24 @@ namespace Frontend.Web.Controllers
         }
 
 
+        [HttpGet]
         public ActionResult Details(int id)
         {
-            return View();
+            var company = _companyRepo.GetById(id);
+            return View(new CompanyDetailsModel(company));
         }
 
-        
+        [HttpPost]
+        public ActionResult Details(CompanyDetailsModel searchCompanyModel, int id)
+        {
+            var company = ServiceLocator.Resolve<CompanyDetailsModel2Entity>().Run(searchCompanyModel, id);
+            _companyRepo.Update(company);
+
+            searchCompanyModel.Message = new SuccessMessage("\""+ company.Name +"\" wurde gespeichert");
+
+            return View(searchCompanyModel);
+        }
+
         [HttpPost]
         [AccessOnlyLoggedIn]
         public JsonResult DeleteDetails(int id)
